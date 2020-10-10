@@ -1,11 +1,21 @@
-<?php namespace App\Controllers;
+<?php 
+namespace App\Controllers;
+use App\Models\Modelkategori;
+
 
 class Home extends BaseController
 {
+  protected $Modelkategori;
+
+    public function __construct()
+    {
+        $this->Modelkategori = new Modelkategori();
+    }
   public function index()
   {
     $data =[
       'title' => 'Home',
+      'kategori' => $this->Modelkategori->get_kategori(),
       'content' => 'v_home',
     ];
     echo view('layout/v_wrapper', $data);
