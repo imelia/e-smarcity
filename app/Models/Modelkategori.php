@@ -1,17 +1,26 @@
-<?php 
-namespace App\Models;
+<?php namespace App\Models;
+ 
 use CodeIgniter\Model;
-
+ 
 class Modelkategori extends Model
 {
-    public function __contruct()
+    protected $table = "kategori";
+ 
+    public function getkategori($id = false)
     {
-        $db = \Config\Database::connect();
-    }
-   public function get_kategori() 
+        if($id === false){
+            return $this->table('kategori')
+                        ->get()
+                        ->getResultArray();
+        } else {
+            return $this->table('kategori')
+                        ->where('id_kategori', $id)
+                        ->get()
+                        ->getRowArray();
+        }   
+    } 
+    public function insert_kategori($data)
     {
-        $builder = $db->table('kategori');
-        $query   = $builder->get();
-        return $query->getResult();
+        return $this->db->table($this->table)->insert($data);
     }
-}
+} 
