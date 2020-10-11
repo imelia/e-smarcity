@@ -23,4 +23,5 @@ class Modelkategori extends Model
     {
         return $this->db->table($this->table)->insert($data);
     }
+
 } 

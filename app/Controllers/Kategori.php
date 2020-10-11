@@ -6,7 +6,7 @@ use CodeIgniter\Controller;
 
 use App\Models\Modelkategori;
 
-class Product extends Controller
+class Kategori extends Controller
 {
  
     public function __construct() {
@@ -25,10 +25,9 @@ class Product extends Controller
         echo view('kategori/index', $data);
     } 
 
-
     public function create()
     {
-    return view('kategori/create');
+    return view('create');
     } 
 
     public function store()
@@ -56,6 +55,6 @@ class Product extends Controller
         session()->setFlashdata('success', 'Created category successfully');
         // Redirect halaman ke product
         return redirect()->to(base_url('kategori')); 
-    }
+    } 
     } 
 }
