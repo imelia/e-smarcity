@@ -173,3 +173,10 @@ CRITICAL - 2020-10-12 02:25:18 --> Unable to connect to the database.
 #7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #9 {main}
+CRITICAL - 2020-10-12 03:19:06 --> Class 'App\Controllers\Modelmodel' not found
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Modal->__construct()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
