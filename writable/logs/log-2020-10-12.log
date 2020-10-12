@@ -180,3 +180,181 @@ CRITICAL - 2020-10-12 03:19:06 --> Class 'App\Controllers\Modelmodel' not found
 #3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #5 {main}
+CRITICAL - 2020-10-12 07:35:08 --> Undefined variable: to
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->tambah()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-12 07:44:26 --> Undefined variable: to
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->tambah()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-12 07:44:36 --> Call to undefined method App\Models\Modelmodal::getAllData
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(20): CodeIgniter\Model->__call('getAllData', Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-12 07:45:53 --> Undefined variable: modal
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(26): view('modal/index')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 07:48:59 --> Undefined variable: gambar
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(26): view('modal/index')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 07:49:37 --> Call to undefined method App\Models\Modelmodal::getAllData
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(20): CodeIgniter\Model->__call('getAllData', Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-12 08:15:21 --> Undefined variable: gambar
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(25): view('modal/index')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 08:27:19 --> Undefined variable: gambar
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(25): view('modal/index')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 08:27:26 --> Undefined variable: gambar
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(25): view('modal/index')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 08:30:09 --> Undefined variable: modal
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(25): view('modal/index')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 08:32:14 --> Undefined variable: modal
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(25): view('modal/index')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 08:33:23 --> Undefined property: App\Controllers\Modal::$model
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-12 08:34:31 --> Undefined property: App\Controllers\Modal::$model
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Modal.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Modal->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Modal))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-12 08:48:41 --> Invalid file: view_list.php
+#0 C:\xampp\htdocs\e-smarcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_list.php')
+#1 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('view_list', Array, true)
+#2 C:\xampp\htdocs\e-smarcity\app\Controllers\Upload.php(16): view('view_list', Array)
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Upload->index()
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-12 08:49:52 --> Invalid file: view_list.php
+#0 C:\xampp\htdocs\e-smarcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view_list.php')
+#1 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('view_list', Array, true)
+#2 C:\xampp\htdocs\e-smarcity\app\Controllers\Upload.php(16): view('view_list', Array)
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Upload->index()
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-10-12 08:51:03 --> Undefined variable: gambar
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('Modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Upload.php(16): view('Modal/index', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Upload->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 08:51:42 --> Undefined index: id
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(74): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('Modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Upload.php(16): view('Modal/index', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Upload->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-12 08:58:10 --> Undefined variable: judul
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Modal\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('Modal/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Upload.php(16): view('Modal/index', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Upload->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Upload))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}

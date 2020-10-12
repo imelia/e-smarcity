@@ -44,7 +44,7 @@
 
 <!-- Nav Item - Pages Collapse Menu -->
 <li class="nav-item">
-  <a class="nav-link collapsed" href="<?= base_url('modal'); ?>"> 
+  <a class="nav-link collapsed" href="<?= base_url('upload'); ?>"> 
     <i class="fas fa-fw fa-table"></i>
     <span>Data Modal</span>
   </a>
