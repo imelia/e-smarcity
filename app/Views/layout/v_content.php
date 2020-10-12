@@ -1,5 +1,5 @@
 <?php 
 
-if ($isi) {
-    echo view($isi);
+if ($data) {
+    echo view($data);
 }

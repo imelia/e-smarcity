@@ -4,7 +4,7 @@ use CodeIgniter\Model;
  
 class Modelkategori extends Model
 {
-    protected $table = "kategori";
+    protected $table = 'kategori';
  
     public function getkategori($id = false)
     {
@@ -19,6 +19,13 @@ class Modelkategori extends Model
                         ->getRowArray();
         }   
     } 
+
+    public function simpankategori($data){
+        $query = $this->db->table('kategori')->insert($data);
+        return $query;
+    }
+    
+
     public function insert_kategori($data)
     {
         return $this->db->table($this->table)->insert($data);

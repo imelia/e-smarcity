@@ -38,7 +38,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="<?= base_url() ?>/template/dist/img/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="<?= base_url() ?>/template/dist/img/endless-Probolinggo.png" alt="" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">Smart City</span>
     </a>

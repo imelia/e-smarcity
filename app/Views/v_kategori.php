@@ -1,4 +1,5 @@
-<div class="container">
+ <div class="container">
+ <h3>Kategori Lists</h3>
         <a href="<?php echo base_url('kategori/create'); ?>" class="btn btn-success float-right mb-3">Tambah Kategori</a>
         <div class="table-responsive">
             <table class="table table-bordered">
@@ -9,8 +10,8 @@
                     <th>Action</th>
                 </thead>
                 <tbody>
-                   
-                    <tr>
+                
+                    <tr> 
                         <td><?php echo $key+1; ?></td>
                         <td><?php echo $data['nama_kategori']; ?></td>
                         <td><?php echo $data['gambar']; ?></td>
@@ -21,7 +22,7 @@
                             </div>
                         </td>
                     </tr>
-                   
+                    
                 </tbody>
             </table>
         </div>

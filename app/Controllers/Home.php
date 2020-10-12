@@ -9,7 +9,7 @@ class Home extends BaseController
     $data =[
       'title' => 'Home',
       'content' => 'v_home',
-    ];
+    ]; 
     echo view('layout/v_wrapper', $data);
   }
 
@@ -18,7 +18,7 @@ class Home extends BaseController
     $data =[
       'title' => 'Kategori',
       'content' => 'v_kategori',
-    ];
+    ]; 
     echo view('layout/v_wrapper_kategori', $data);
   }
 

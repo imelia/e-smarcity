@@ -18,7 +18,7 @@ class Kategori extends Controller
         pada function di dalam class Product 
         */
     }
- 
+
     public function index()
     {
         $data['kategori'] = $this->kategori->getkategori();
@@ -29,6 +29,18 @@ class Kategori extends Controller
     {
     return view('create');
     } 
+
+    public function simpan()
+    {
+        $model = new Modelkategori();
+        $data = array(
+            'nama_kategori'        => $this->request->getPost('nama_kategori'),
+            'gambar'               => $this->request->getPost('gambar'),
+           
+        );
+        $model->simpankategori($data);
+        return redirect()->to('kategori');
+    }
 
     public function store()
     {

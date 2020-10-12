@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
 <body>
-<div class="container mt-5 mb-5 text-center">
+ <div class="container mt-5 mb-5 text-center">
         <h4>Tambah Kategori</h4>
     </div>
     <div class="container">
