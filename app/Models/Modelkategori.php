@@ -1,34 +1,23 @@
-<?php namespace App\Models;
+<?php 
+namespace App\Models;
  
 use CodeIgniter\Model;
  
 class Modelkategori extends Model
 {
-    protected $table = 'kategori';
- 
-    public function getkategori($id = false)
+    public function __construct()
     {
-        if($id === false){
-            return $this->table('kategori')
-                        ->get()
-                        ->getResultArray();
-        } else {
-            return $this->table('kategori')
-                        ->where('id_kategori', $id)
-                        ->get()
-                        ->getRowArray();
-        }   
+        $this->db = db_connect();
     } 
 
-    public function simpankategori($data){
-        $query = $this->db->table('kategori')->insert($data);
-        return $query;
+    public function getAllData()
+    {
+       return $this->db->table('kategori')->get()->getResultArray();
     }
     
-
-    public function insert_kategori($data)
+    public function tambah($data)
     {
-        return $this->db->table($this->table)->insert($data);
+       return $this->db->table('kategori')->insert($data);
     }
-
-} 
+}
+       
