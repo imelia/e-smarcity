@@ -161,3 +161,15 @@ CRITICAL - 2020-10-12 15:56:01 --> Undefined variable: to
 #4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+ERROR - 2020-10-12 02:25:18 --> Error connecting to the database: Unknown database 'smartcity'
+CRITICAL - 2020-10-12 02:25:18 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(629): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-smarcity\app\Models\Modelkategori.php(15): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(20): App\Models\Modelkategori->getAllData()
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
