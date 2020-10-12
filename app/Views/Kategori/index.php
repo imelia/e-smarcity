@@ -62,6 +62,7 @@
         <div class="form-group mb-0">
             <label for="gambar"></label>
             <input type="file" name="gambar" id="gambar" class="form-control-file" enctype="multipart/form-data">
+            <img src="assets/img/ranuagung.jpg"/>
             </div>
     </div>
       <div class="modal-footer">
