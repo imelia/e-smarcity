@@ -14,7 +14,7 @@
         </div>
     </div>
     <hr>
-    <a href="/kategori/form" class="btn btn-primary"><span class="fa fa-plus"></span> Input Data Modal</a>
+    <a href="/kategori/form" class="btn btn-primary"><span class="fa fa-plus"></span> Input Data Kategori</a>
     <hr>
             <?php if(!empty(session()->getFlashdata('berhasil'))){ ?>
                 <div class="alert alert-success">
@@ -49,7 +49,7 @@
                     ?></td>
                     <td><?=$row['nama_kategori'];?></td>
                     
-                    <td><a href="kategori/v_kategoriedit/<?=$row['id_kategori'];?>" class="btn btn-primary">Edit</a> | <a href="kategori/hapus/<?=$row['id_kategori'];?>" class="btn btn-danger">Hapus</a> </td>
+                    <td><a href="kategori/form_edit/<?=$row['id_kategori'];?>" class="btn btn-primary">Edit</a> | <a href="kategori/hapus/<?=$row['id_kategori'];?>" class="btn btn-danger">Hapus</a> </td>
                 </tr>
                 <?php endforeach;?>
             </table>
