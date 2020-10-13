@@ -30,10 +30,10 @@
                 <td scope="row"><?= $i; ?></td>
                 <td><?= $row['nama_kategori']; ?></td>
                 <td><?php
-                        if (!empty($row["gambar"])) {
-                            echo '<img src="'.base_url("assets/img/$row[gambar]").'" width="100">';
+                        if (!empty($kategori->gambar)) {
+                            echo '<img src="'.base_url("assets/img/$kategori->gambar").'" width="30%">';
                         }
-                    ?></td>
+                ?></td>
             </tr> 
             <?php $i++; ?>
             <?php endforeach; ?>
