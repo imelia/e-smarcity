@@ -51,7 +51,7 @@
                     <td><?=$row['deskripsi'];?></td>
                     <td><?=$row['link'];?></td>
                     
-                    <td><a href="blog/view/<?=$row['id_modal'];?>" class="btn btn-success">View</a> | <a href="blog/form_edit/<?=$row['id_modal'];?>" class="btn btn-primary">Edit</a> | <a href="blog/hapus/<?=$row['id_modal'];?>" class="btn btn-danger">Hapus</a> </td>
+                    <td><a href="blog/form_edit/<?=$row['id_modal'];?>" class="btn btn-primary">Edit</a> | <a href="blog/hapus/<?=$row['id_modal'];?>" class="btn btn-danger">Hapus</a> </td>
                 </tr>
                 <?php endforeach;?>
             </table>

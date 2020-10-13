@@ -21,12 +21,6 @@ class Blog extends BaseController
         return view('view_form');
     }
 
-    public function view($id){
-        $model = new ModelsBlog();
-        $data['artikel'] = $model->PilihBlog($id)->getRow();
-        return view('view',$data);
-    }
-
     public function simpan(){
         $model = new ModelsBlog();
         if ($this->request->getMethod() !== 'post') {
