@@ -29,7 +29,11 @@
             <tr>
                 <td scope="row"><?= $i; ?></td>
                 <td><?= $row['nama_kategori']; ?></td>
-                <td><?= $row['gambar']; ?></td>
+                <td><?php
+                        if (!empty($row["gambar"])) {
+                            echo '<img src="'.base_url("assets/img/$row[gambar]").'" width="100">';
+                        }
+                    ?></td>
             </tr> 
             <?php $i++; ?>
             <?php endforeach; ?>
