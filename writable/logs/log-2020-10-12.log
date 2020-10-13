@@ -387,3 +387,13 @@ CRITICAL - 2020-10-12 10:33:35 --> Invalid file: view.php
 #6 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2020-10-12 20:03:13 --> Invalid file: view.php
+#0 C:\xampp\htdocs\e-smarcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('view.php')
+#1 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('view', Array, true)
+#2 C:\xampp\htdocs\e-smarcity\app\Controllers\Blog.php(27): view('view', Array)
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Blog->view('1')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#8 {main}
