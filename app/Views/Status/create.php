@@ -19,6 +19,7 @@
         <form action="<?php echo base_url('status/store'); ?>" method="post">
  
         <div class="form-group">
+            <label for="jenis_status">Jenis Status</label>
                <select name="jenis_status" class="form-control">
                <option value="">- Pilih -</option>
                <option value="1" <?='jenis_status' == 1 ? "selected" : null?>>Aktif</option>
@@ -26,10 +27,11 @@
                 </select>
                 </div>
             <div class="form-group">
+            <label for="level_status">Level Status</label>
             <select name="level_status" class="form-control">
                <option value="">- Pilih -</option>
-               <option value="1" <?='level_status' == 1 ? "selected" : null?>>1. Aktif</option>
-               <option value="2" <?='level_status' == 2 ? "selected" : null?>>2. Non Aktif</option>
+               <option value="1" <?='level_status' == 1 ? "selected" : null?>>Aktif</option>
+               <option value="2" <?='level_status' == 2 ? "selected" : null?>>Non Aktif</option>
                 </select>
                 </div>
             <div class="form-group">
