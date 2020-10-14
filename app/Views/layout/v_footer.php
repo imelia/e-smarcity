@@ -1,39 +1,32 @@
-
-
-  <!-- Footer -->
+<!-- Footer -->
   <footer class="footer">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Diskomnfo Kabupaten Probolinggo 2020</span>
+          <span class="copyright">Copyright &copy; Kabupaten Probolinggo 2020</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://twitter.com/Infokabprob">
                 <i class="fab fa-twitter"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.facebook.com/infoprobolinggokab">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
+              <a href="https://www.youtube.com/channel/UCl1Skf0XEOJG0Ll_DBqRvMA">
+                <i class="fab fa-youtube"></i>
               </a>
             </li>
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="list-inline quicklinks">
-            <li class="list-inline-item">
-              <a href="#">Privacy Policy</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">Terms of Use</a>
-            </li>
+          <img src="../assetsfrontend/img/logos/endless-Probolinggo.png" alt="Probolinggo" width="150" height="90">
           </ul>
         </div>
       </div>
