@@ -1,30 +1,26 @@
-<?php
-
-namespace App\Controllers;
-
+<?php namespace App\Controllers;
+ 
 use CodeIgniter\Controller;
-
 use App\Models\Modelstatus;
-
-class Status extends Controller
+ 
+class Status extends BaseController
 {
-    public function __construct()
-    {
-        $this->model = new Modelstatus;
-    }
-
     public function index()
     {
-        $data = [
-            'judul' => 'Data Status',
-            'status' => $this->model->getAllData()
-        ];
+        $model = new Modelstatus();
+        if (!$this->validate([]))
+        {
+            $data['validation'] = $this->validator;
+            $data['status'] = $model->getStatus();
+            return view('v_statuslist',$data);
+        }
+    }
 
-        echo view('template/v_header', $data);
-        echo view('template/v_sidebar');
-        echo view('template/v_topbar');
-        echo view('status/index');
-        echo view('template/v_footer');
-    } 
+    public function form(){
+        helper('form');
+        return view('v_statusform');
+    }
+
+    
 
 }
