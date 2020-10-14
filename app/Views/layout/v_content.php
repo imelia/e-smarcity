@@ -1,40 +1,4 @@
    <!-- Services -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Services</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-        </div>
-      </div>
-      <div class="row text-center">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">E-Commerce</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Responsive Design</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-          </span>
-          <h4 class="service-heading">Web Security</h4>
-          <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
@@ -42,7 +6,9 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Smart City</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">Kabupaten Probolinggo</h3>
+          
+          <center>  <img class="cover" src="../assetsfrontend/img/logos/logo.png" width="20%" height="10%" margin: 10px px 5px 10px;></center>
         </div>
       </div>
       <div class="row">
@@ -53,7 +19,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="../assetsfrontend/img/portfolio/01-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="../assetsfrontend/img/logos/BRANDING.png"  width="150%" height="150%" style="float: center; margin:0 10px 0;" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Smart Branding</h4>
@@ -67,7 +33,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="../assetsfrontend/img/portfolio/02-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="../assetsfrontend/img/logos/GOVERNMENT.png"  width="150%" height="150%" style="float: center; margin:0 10px 0;" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Smart Goverment</h4>
@@ -81,7 +47,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="../assetsfrontend/img/portfolio/03-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="../assetsfrontend/img/logos/ENVIRONMENT.png"  width="150%" height="150%" style="float: center; margin:0 10px 0;" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Smart Environment</h4>
@@ -95,7 +61,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="../assetsfrontend/img/portfolio/04-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="../assetsfrontend/img/logos/LIVING.png" width="150%" height="150%" style="float: center; margin:0 10px 0;" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Smart Living</h4>
@@ -109,7 +75,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="../assetsfrontend/img/portfolio/05-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="../assetsfrontend/img/logos/ECONOMY.png" width="150%" height="150%" style="float: center; margin:0 10px 0;" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Smart Economy</h4>
@@ -123,7 +89,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="../assetsfrontend/img/portfolio/06-thumbnail.jpg" alt="">
+            <img class="img-fluid" src="../assetsfrontend/img/logos/SOCIETY.png" width="150%" height="150%" style="float: center; margin:0 10px 0;" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>Smart Society</h4>
