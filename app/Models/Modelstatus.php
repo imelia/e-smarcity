@@ -5,28 +5,31 @@ class Modelstatus extends Model
 {
     protected $table = 'status';
      
-    public function getStatus()
+    public function getStatus($id = false)
     {
-        return $this->findAll();  
+        if($id === false){
+            return $this->table('status')
+                        ->get()
+                        ->getResultArray();
+        } else{
+            return $this->table('status')
+                        ->where('id_status', $id)
+                        ->get()
+                        ->getRowArray();
+        }
     }
-    public function SimpanKategori($data)
+    public function insert_status($data)
     {
-        $query = $this->db->table($this->table)->insert($data);
-        return $query;
+        return $this->db->table($this->table)->insert($data);
     }
-    public function PilihKategori($id)
+
+    public function update_status($data, $id)
     {
-         $query = $this->getWhere(['id_kategori' => $id]);
-         return $query;
+    return $this->db->table($this->table)->update($data, ['id_status' => $id]);
     }
-    public function edit_data($id,$data)
+   
+    public function delete_status($id)
     {
-        $query = $this->db->table($this->table)->update($data, array('id_modal' => $id));
-        return $query;
-    }
-    public function HapusBlog($id)
-    {
-        $query = $this->db->table($this->table)->delete(array('id_modal' => $id));
-        return $query;
+    return $this->db->table($this->table)->delete(['id_status' => $id]);
     }
  }

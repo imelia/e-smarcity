@@ -87,3 +87,227 @@ CRITICAL - 2020-10-13 23:45:52 --> Invalid file: homefront/index.php
 #6 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+CRITICAL - 2020-10-13 21:04:06 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_statusform.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_statusform', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(21): view('v_statusform')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->form()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 21:16:35 --> Class 'App\Controllers\ModelsBlog' not found
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->simpan()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-13 21:35:31 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_statusform.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_statusform', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(21): view('v_statusform')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->form()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 21:45:37 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_statusform.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_statusform', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(21): view('v_statusform')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->form()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 21:45:38 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_statusform.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_statusform', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(21): view('v_statusform')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->form()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 21:45:46 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_statusform.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_statusform', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(21): view('v_statusform')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->form()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 21:47:51 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_statusform.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_statusform', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(21): view('v_statusform')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->form()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 21:48:39 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_statusform.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_statusform', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(21): view('v_statusform')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->form()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 21:58:55 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\e-smarcity\system\Router\Router.php(199): CodeIgniter\Router\Router->autoRoute('status')
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(839): CodeIgniter\Router\Router->handle('status')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:03:25 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\e-smarcity\system\Router\Router.php(199): CodeIgniter\Router\Router->autoRoute('status')
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(839): CodeIgniter\Router\Router->handle('status')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:03:34 --> syntax error, unexpected '$model' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\e-smarcity\system\Router\Router.php(199): CodeIgniter\Router\Router->autoRoute('status')
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(839): CodeIgniter\Router\Router->handle('status')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:04:24 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_statusform.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_statusform', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(21): view('v_statusform')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->form()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 22:26:22 --> Undefined property: App\Controllers\Status::$status
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:29:09 --> Undefined property: App\Controllers\Status::$Modelstatus
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:29:10 --> Undefined property: App\Controllers\Status::$Modelstatus
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:29:10 --> Undefined property: App\Controllers\Status::$Modelstatus
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:30:14 --> Undefined property: App\Controllers\Status::$model
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:31:12 --> Undefined property: App\Controllers\Status::$Modelstatus
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:32:09 --> Undefined property: App\Controllers\Status::$Modelstatus
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:32:54 --> Undefined variable: model
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:33:12 --> Undefined property: App\Controllers\Status::$model
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-13 22:54:39 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Status\create.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('status/create', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(18): view('status/create')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->create()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 23:00:38 --> Undefined variable: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Status\create.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('status/create', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(18): view('status/create')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->create()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-13 23:14:39 --> Undefined variable: hasil
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Status\create.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('status/create', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Status.php(18): view('status/create')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Status->create()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Status))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
