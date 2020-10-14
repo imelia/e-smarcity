@@ -9,6 +9,12 @@ body {
   font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 p {
   line-height: 1.75;
 }
@@ -173,16 +179,22 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/bromo.jpg");
+  background-image: url("/img/prob.mp4");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
+
 
 header.masthead .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
+  color: #212529;
 }
 
 header.masthead .intro-text .intro-lead-in {

@@ -22,7 +22,8 @@
 
   <!-- Custom styles for this template -->
   <link href="../assetsfrontend/css/agency.min.css" rel="stylesheet">
-
+  <link href="../assetsfrontend/css/agency.css" rel="stylesheet">
+  
 </head>
 
 <body id="page-top">
