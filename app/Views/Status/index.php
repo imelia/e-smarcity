@@ -39,7 +39,7 @@
         <?php } ?>
     </div>
     <div class="container">
-        <a href="<?php echo base_url('status/create'); ?>" class="btn btn-success float-right mb-3">Tambah Produk</a>
+        <a href="<?php echo base_url('status/create'); ?>" class="btn btn-success float-right mb-3">Tambah Status</a>
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead>
