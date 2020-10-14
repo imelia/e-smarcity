@@ -22,15 +22,19 @@
     			<div class="col-md-12">
     				<label>Jenis Status</label>
     				<div class="form-group">
-                   		 <input type="text" name="jenis_status" class="form-control"> 
+						<select class="form-control" name="jenis_status">
+						<?php foreach($status as $l){ ?>
+							<option value="<?php echo $l['id_status']; ?>"> <?php echo $l['jenis_status']; ?>     </option>
+							<?php } ?>
+						</select>
                 	</div>	
     			</div>
-    			<div class="col-md-12">
+    		<!--	<div class="col-md-12">
     				<label>Level Status</label>
     				<div class="form-group">
                    		 <input type="text" name="level_status" class="form-control"> 
                 	</div>	
-    			</div>
+    			</div> -->
                 
     			<div class="col-md-12">
     				<div class="form-group">
