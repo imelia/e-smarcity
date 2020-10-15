@@ -34,7 +34,7 @@
             <img class="img-fluid" src="../assetsfrontend/img/logos/GOVERNMENT.png" width="150%" height="150%" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Smart Goverment</h4>
+            <h4>Smart Government</h4>
             <p class="text-muted"></p>
           </div>
         </div>
