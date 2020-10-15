@@ -1,8 +1,8 @@
 <!-- Footer -->
   <footer class="footer">
     <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-4">
+      <div class="row align-items-center" >
+        <div class="col-md-4" style="color:black">
           <span class="copyright">Copyright &copy; Kabupaten Probolinggo 2020</span>
         </div>
         <div class="col-md-4">

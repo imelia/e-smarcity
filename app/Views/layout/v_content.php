@@ -1,12 +1,11 @@
    <!-- Services -->
 
   <!-- Portfolio Grid -->
-  <section class="bg-light page-section" id="portfolio">
+  <section class="bg-light page-section" id="portfolio" style="margin-top: -20%">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Smart City</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h2 class="section-heading text-uppercase" style="margin-bottom: 10%">SMART CITY</h2>
         </div>
       </div>
       <div class="row">
