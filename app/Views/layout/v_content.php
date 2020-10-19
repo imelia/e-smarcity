@@ -35,7 +35,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="gambar" src="/assetsfrontend/img/logos/ <?= $h['gambar']; ?>" width="150%" height="150%" alt="">
+            <img class="gambar" src="/assetsfrontend/img/logos/ width="150%" height="150%" alt="">
           </a>
           <div class="portfolio-caption">
             <h4></h4>
@@ -99,9 +99,10 @@
           </a>
           <div class="portfolio-caption">
             <h4>Smart Society</h4>
-            <p class="text-muted"></p>
+            <p class="text-muted"></p> 
           </div> -->
        </div> 
+
 
   <!-- About -->
 

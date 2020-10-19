@@ -33,7 +33,7 @@
     			<div class="col-md-12">
     				<label>NAMA KATEGORI</label>
     				<div class="form-group">
-                        <input type="hidden" name="id" class="form-control" value="<?=$kategori->id_kategori?>">
+                        <input type="hidden" name="id_kategori" class="form-control" value="<?=$kategori->id_kategori?>">
                    		 <input type="text" name="nama_kategori" class="form-control" value="<?=$kategori->nama_kategori?>"> 
                 	</div>	
     			</div>
