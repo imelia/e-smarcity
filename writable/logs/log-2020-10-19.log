@@ -1,0 +1,296 @@
+ERROR - 2020-10-19 10:37:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2020-10-19 10:37:40 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseConnection.php(629): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Models\Modelkategori.php(10): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(14): App\Models\Modelkategori->getKategori()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-19 11:12:32 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:13:03 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:13:34 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:28:57 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:32:09 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:34:38 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:40:20 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:41:10 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:45:57 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:54:23 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 11:59:19 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 12:00:27 --> Class 'App\Controllers\SmartModel' not found
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Homefront->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 12:08:04 --> Undefined variable: homefront
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 12:08:24 --> Undefined variable: SmartModel
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 12:08:37 --> Undefined variable: homefront
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(27): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-19 12:09:23 --> Undefined variable: h
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(27): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-19 12:13:01 --> Undefined variable: Homefront
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(27): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-19 12:14:22 --> Undefined variable: kategori
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(27): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-19 12:21:14 --> Undefined variable: Homefront
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-19 12:41:25 --> Undefined variable: Homefront
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-19 12:43:45 --> Undefined variable: h
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-19 13:05:27 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_footer', Array, true)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(6): view('layout/v_footer')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-19 13:09:39 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_footer', Array, true)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(6): view('layout/v_footer')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-19 13:10:09 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_footer', Array, true)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(6): view('layout/v_footer')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-19 13:10:44 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_footer', Array, true)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(6): view('layout/v_footer')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-19 13:10:57 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_footer', Array, true)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(6): view('layout/v_footer')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-19 13:11:13 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_footer', Array, true)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(6): view('layout/v_footer')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-10-19 13:11:28 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_footer', Array, true)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(6): view('layout/v_footer')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}

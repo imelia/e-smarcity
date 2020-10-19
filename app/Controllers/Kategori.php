@@ -33,12 +33,14 @@ class Kategori extends BaseController
         if ($validation == FALSE) {
         $data = array(
             'nama_kategori'  => $this->request->getPost('nama_kategori'),
+            'status'  => $this->request->getPost('status'),
         );
         } else {
             $upload = $this->request->getFile('file_upload');
             $upload->move(WRITEPATH . '../public/assets/img/');
         $data = array(
             'nama_kategori'  => $this->request->getPost('nama_kategori'),
+            'status'  => $this->request->getPost('status'),
             'gambar' => $upload->getName(),
         );
         }
@@ -66,6 +68,8 @@ class Kategori extends BaseController
         if ($validation == FALSE) {
         $data = array(
             'nama_kategori'  => $this->request->getPost('nama_kategori'),
+            'status'  => $this->request->getPost('status'),
+
         );
         } else {
         $dt = $model->PilihKategori($id)->getRow();
@@ -76,6 +80,7 @@ class Kategori extends BaseController
             $upload->move(WRITEPATH . '../public/assets/img/');
         $data = array(
             'nama_kategori'  => $this->request->getPost('nama_kategori'),
+            'status'  => $this->request->getPost('status'),
             'gambar' => $upload->getName(),
         );
         }

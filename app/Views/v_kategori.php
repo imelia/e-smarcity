@@ -6,7 +6,8 @@
                 <thead>
                     <th>No</th>
                     <th>Name</th>
-                    <th>Gambar</th>
+                    <th>Gambar</th> 
+                    <th>Status</th>
                     <th>Action</th>
                 </thead>
                 <tbody>
@@ -14,6 +15,7 @@
                     <tr> 
                         <td><?php echo $key+1; ?></td>
                         <td><?php echo $data['nama_kategori']; ?></td>
+                        <td><?php echo $data['status']; ?></td>
                         <td><?php echo $data['gambar']; ?></td>
                         <td>
                             <div class="btn-group">

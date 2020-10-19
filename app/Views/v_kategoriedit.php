@@ -37,6 +37,13 @@
                    		 <input type="text" name="nama_kategori" class="form-control" value="<?=$kategori->nama_kategori?>"> 
                 	</div>	
     			</div>
+                <div class="col-md-12">
+    				<label>STATUS</label>
+    				<div class="form-group">
+                        <input type="hidden" name="id" class="form-control" value="<?=$kategori->status?>">
+                   		 <input type="text" name="status" class="form-control" value="<?=$kategori->status?>"> 
+                	</div>	
+    			</div>
 
     			<div class="col-md-12">
     				<div class="form-group">

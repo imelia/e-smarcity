@@ -8,7 +8,10 @@
           <h2 class="section-heading text-uppercase" style="margin-bottom: 10%">SMART CITY</h2>
         </div>
       </div>
+
+     
       <div class="row">
+      <?php foreach ($homefront as $h) : ?>
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
             <div class="portfolio-hover">
@@ -16,28 +19,31 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="../assetsfrontend/img/logos/BRANDING.png" width="150%" height="150%" alt="">
+            <img class="img-fluid" src="/assets/img/<?= $h['gambar']; ?>" width="100%" height="50%" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Smart Branding</h4>
+            <h4><?= $h['nama_kategori']; ?></h4>
             <p class="text-muted"></p>
           </div>
         </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        <?php endforeach; ?>
+    
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="../assetsfrontend/img/logos/GOVERNMENT.png" width="150%" height="150%" alt="">
+            <img class="gambar" src="/assetsfrontend/img/logos/ <?= $h['gambar']; ?>" width="150%" height="150%" alt="">
           </a>
           <div class="portfolio-caption">
-            <h4>Smart Government</h4>
+            <h4></h4>
             <p class="text-muted"></p>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        </div>  -->
+       
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -50,8 +56,9 @@
             <h4>Smart Environment</h4>
             <p class="text-muted"></p>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        </div> -->
+
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -64,8 +71,9 @@
             <h4>Smart Living</h4>
             <p class="text-muted"></p>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        </div> -->
+
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -78,8 +86,9 @@
             <h4>Smart Economy</h4>
             <p class="text-muted"></p>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-6 portfolio-item">
+        </div> -->
+        
+        <!-- <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -91,11 +100,8 @@
           <div class="portfolio-caption">
             <h4>Smart Society</h4>
             <p class="text-muted"></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+          </div> -->
+       </div> 
 
   <!-- About -->
 

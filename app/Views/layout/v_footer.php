@@ -46,13 +46,14 @@
         </div>
         <div class="container">
           <div class="row">
+          <?php foreach ($homefront as $h) : ?>
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h4 class="text-uppercase">SMART BRANDING</h4>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="../assetsfrontend/img/logos/endless-Probolinggo.png" alt="">
-                <p>Smart Branding merupakan Inovasi dalam pemasaran daerah guna meningkatkan daya saing daerah dengan mengembangkan tiga unsur yaitu Pariwisata, Bisnis dan Wajah Kota.</p>
+                <img class="img-fluid d-block mx-auto" src="/assets/img/<?= $h['gambar']; ?>" alt="">
+                <p><?= $h['nama_kategori']; ?></p>
                 <ul class="list-inline">
                   <li>Category: Branding</li>
                 </ul>
@@ -61,6 +62,7 @@
                   Close Project</button>
               </div>
             </div>
+            <?php foreach ($homefront as $h) : ?>
           </div>
         </div>
       </div>
@@ -68,7 +70,7 @@
   </div>
 
   <!-- Modal 2 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+ <!-- <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -80,8 +82,8 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h4 class="text-uppercase">SMART GOVERNMENT</h4>
+                 Project Details Go Here -->
+               <!-- <h4 class="text-uppercase">SMART GOVERNMENT</h4>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="../assetsfrontend/img/portfolio/02-full.jpg" alt="">
                 <p>Smart Governance dapat diartikan sebagai tata kelola kota yang cerdas, dimana komponen tata kelola ini umumnya menyoroti tata kelola dari pemerintah daerah sebagai institusi yang mengendalikan sendi-sendi kehidupan kota.</p>
@@ -97,10 +99,11 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
+ 
 
   <!-- Modal 3 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+ <!-- <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -112,8 +115,8 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h4 class="text-uppercase">SMART ENVIRONMENT</h4>
+                 Project Details Go Here -->
+      <!--          <h4 class="text-uppercase">SMART ENVIRONMENT</h4>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="../assetsfrontend/img/portfolio/03-full.jpg" alt="">
                 <p>Smart Environment dapat diartikan sebagai tata kelola kota yang cerdas, dimana adanya perhatian bagi lingkungan hidup dalam pembangunan kota yang sama besarnya dengan perhatian yang diberikan terhadap pembangunan infrastruktur fisik maupun pembangunan bagi sarana dan prasarana bagi warga.</p>
@@ -129,10 +132,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Modal 4 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+ <!-- <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -144,8 +147,8 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h4 class="text-uppercase">SMART LIVING</h4>
+                 Project Details Go Here -->
+             <!--   <h4 class="text-uppercase">SMART LIVING</h4>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="../assetsfrontend/img/portfolio/04-full.jpg" alt="">
                 <p>Menjamin kelayakan standar hidup orang-orang di dalamnya. Kelayakan standar hidup dapat dinilai dari tiga elemen, yaitu: Kelayakan Pola Hidup (Harmoni), Kelayakan Kualitas Kesehatan (Kesehatan) dan Kelayakan Moda Transportasi (Mobilitas).</p>
@@ -161,10 +164,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Modal 5 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+ <!-- <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -176,8 +179,8 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h4 class="text-uppercase">SMART ECONOMY</h4>
+                Project Details Go Here -->
+<!--  <h4 class="text-uppercase">SMART ECONOMY</h4>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="../assetsfrontend/img/portfolio/05-full.jpg" alt="">
                 <p>Mewujudkan ekosistem perekonomian di daerah yang mampu memenuhi tantangan di era informasi yang disruptif dan menuntut tingkat adaptasi yang cepat seperti saat ini.</p>
@@ -193,10 +196,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Modal 6 -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+  <!--<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -208,8 +211,8 @@
           <div class="row">
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
-                <!-- Project Details Go Here -->
-                <h4 class="text-uppercase">SMART SOCIETY</h4>
+               Project Details Go Here -->
+               <!-- <h4 class="text-uppercase">SMART SOCIETY</h4>
                 <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
                 <img class="img-fluid d-block mx-auto" src="../assetsfrontend/img/logos/smartsociety.jpg" alt="">
                 <p>Di dalam sebuah Smart City, interaksi antar manusia telah bergerak menuju ekosistem sosio-teknis di mana dimensi fisik dan virtual dari kehidupan warga kota semakin terjalin secara intensif.</p>
@@ -225,7 +228,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="../assetsfrontend/vendor/jquery/jquery.min.js"></script>

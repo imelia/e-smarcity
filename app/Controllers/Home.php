@@ -7,7 +7,7 @@ class Home extends BaseController
   public function index()
   {
     $data = [
-      'judul' => 'Homepage'
+      'judul' => 'Tampilan Admin'
     ];
 
     echo view('template/v_header', $data);

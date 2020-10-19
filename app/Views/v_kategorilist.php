@@ -37,6 +37,7 @@
                     <th>No</th>
                     <th>Gambar</th>
                     <th>Nama Kategori</th>
+                    <th>Status</th>
                     <th>Aksi</th>
                 </tr>
                     <?php foreach($kategori as $row):?>
@@ -48,6 +49,7 @@
                         }
                     ?></td>
                     <td><?=$row['nama_kategori'];?></td>
+                    <td><?=$row['status'];?></td>
                     
                     <td><a href="kategori/form_edit/<?=$row['id_kategori'];?>" class="btn btn-primary">Edit</a> | <a href="kategori/hapus/<?=$row['id_kategori'];?>" class="btn btn-danger">Hapus</a> </td>
                 </tr>

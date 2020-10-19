@@ -31,7 +31,12 @@
                    		 <input type="text" name="nama_kategori" class="form-control"> 
                 	</div>	
     			</div>
-    			
+				<div class="col-md-12">
+    				<label>STATUS</label>
+    				<div class="form-group">
+                   		 <input type="text" name="status" class="form-control"> 
+                	</div>	
+    			</div>
     			<div class="col-md-12">
     				<div class="form-group">
                    		  <button class="btn btn-primary">Simpan</button> 
