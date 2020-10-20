@@ -757,3 +757,36 @@ CRITICAL - 2020-10-19 09:22:12 --> Undefined variable: judul
 #7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #9 {main}
+CRITICAL - 2020-10-19 21:13:11 --> Undefined variable: row
+#0 C:\xampp\htdocs\e-smarcity\app\Views\view_list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('view_list', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Blog.php(16): view('view_list', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Blog->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-19 21:14:14 --> Undefined variable: row
+#0 C:\xampp\htdocs\e-smarcity\app\Views\view_list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('view_list', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Blog.php(16): view('view_list', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Blog->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-19 21:14:40 --> Undefined variable: row
+#0 C:\xampp\htdocs\e-smarcity\app\Views\view_list.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('view_list', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Blog.php(16): view('view_list', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Blog->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}

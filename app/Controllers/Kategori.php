@@ -62,7 +62,7 @@ class Kategori extends BaseController
         }
         $id = $this->request->getPost('id_kategori');
         $validation = $this->validate([
-            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png]|max_size[file_upload,4096]'
+            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png]|max_size[file_upload,4096]|width[file_upload,100]'
         ]);
  
         if ($validation == FALSE) {
@@ -85,6 +85,7 @@ class Kategori extends BaseController
             
         );
         }
+        
         $model->edit_data($id,$data);
         return redirect()->to('./kategori')->with('berhasil', 'Data Berhasil di Ubah');
         

@@ -14,7 +14,7 @@
         </div>
     </div>
     <hr>
-    <a href="/kategori/form" class="btn btn-primary"><span class="fa fa-plus"></span> Input Data Kategori</a>
+    <a href="/kategori/form" class="btn btn-primary"  onclick="return confirm('Apakah Anda yakin ingin menambah kategori ini?')"><span class="fa fa-plus"></span> Input Data Kategori</a>
     <hr>
             <?php if(!empty(session()->getFlashdata('berhasil'))){ ?>
                 <div class="alert alert-success">
@@ -51,7 +51,7 @@
                     <td><?=$row['nama_kategori'];?></td>
                     <td><?=$row['status'];?></td>
                     
-                    <td><a href="kategori/form_edit/<?=$row['id_kategori'];?>" class="btn btn-primary">Edit</a> | <a href="kategori/hapus/<?=$row['id_kategori'];?>" class="btn btn-danger">Hapus</a> </td>
+                    <td><a href="kategori/form_edit/<?=$row['id_kategori'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $row['nama_kategori']; ?> ini?')">Edit</a> | <a href="kategori/hapus/<?=$row['id_kategori'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $row['nama_kategori']; ?> ini?')">Hapus</a> </td>
                 </tr>
                 <?php endforeach;?>
             </table>

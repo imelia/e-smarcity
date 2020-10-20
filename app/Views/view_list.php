@@ -14,7 +14,7 @@
         </div>
     </div>
     <hr>
-    <a href="/blog/form" class="btn btn-primary"><span class="fa fa-plus"></span> Input Data Modal</a>
+    <a href="/blog/form" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin menambah modal ini?')"><span class="fa fa-plus" ></span> Input Data Modal</a>
     <hr>
             <?php if(!empty(session()->getFlashdata('berhasil'))){ ?>
                 <div class="alert alert-success">
@@ -51,7 +51,7 @@
                     <td><?=$row['deskripsi'];?></td>
                     <td><?=$row['link'];?></td>
                     
-                    <td><a href="blog/form_edit/<?=$row['id_modal'];?>" class="btn btn-primary">Edit</a> | <a href="blog/hapus/<?=$row['id_modal'];?>" class="btn btn-danger">Hapus</a> </td>
+                    <td><a href="blog/form_edit/<?=$row['id_modal'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin edit modal <?php echo $row['deskripsi']; ?> ini?')">Edit</a> | <a href="blog/hapus/<?=$row['id_modal'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus modal <?php echo $row['deskripsi']; ?> ini?')">Hapus</a> </td>
                 </tr>
                 <?php endforeach;?>
             </table>

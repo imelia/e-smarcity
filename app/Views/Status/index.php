@@ -39,7 +39,7 @@
         <?php } ?>
     </div>
     <div class="container">
-        <a href="<?php echo base_url('status/create'); ?>" class="btn btn-success float-right mb-3">Tambah Status</a>
+        <a href="<?php echo base_url('status/create'); ?>" class="btn btn-success float-right mb-3"  onclick="return confirm('Apakah Anda yakin ingin menambah status?')">Tambah Status</a>
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead>
@@ -57,7 +57,7 @@
                         <td><?php echo $data['level_status']; ?></td>
                         <td>
                             <div class="btn-group">
-                                <a href="<?php echo base_url('status/edit/'.$data['id_status']); ?>" class="btn btn-primary btn-sm"><i class="fas fa-edit"></i></a>
+                                <a href="<?php echo base_url('status/edit/'.$data['id_status']); ?>" class="btn btn-primary btn-sm" onclick="return confirm('Apakah Anda yakin ingin mengedit status <?php echo $data['jenis_status']; ?> ini?')" ><i class="fas fa-edit"></i></a>
                                 <a href="<?php echo base_url('status/delete/'.$data['id_status']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus status <?php echo $data['jenis_status']; ?> ini?')"><i class="fas fa-trash-alt"></i></a>
                             </div>
                         </td>
