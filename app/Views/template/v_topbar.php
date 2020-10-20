@@ -30,11 +30,18 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Logout
+                  Portal
                 </a>
               </div>
             </li>
 
+          <!-- Nav Item - Pages Collapse Menu -->
+              <li class="nav-item">
+                <a class="nav-link collapsed" href="<?= base_url('homefront'); ?>"> 
+                  <span class="mr-3 d-none d-lg-inline text-gray-600 small">Go To Portal</span>
+                  <img class="img-profile rounded-circle" src="assets/img/profile/logo.png"> 
+                </a>
+              </li>
           </ul>
 
         </nav>

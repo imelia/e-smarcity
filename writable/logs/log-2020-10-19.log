@@ -294,6 +294,7 @@ CRITICAL - 2020-10-19 13:11:28 --> syntax error, unexpected end of file
 #8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #10 {main}
+<<<<<<< Updated upstream
 CRITICAL - 2020-10-19 15:45:15 --> Trying to get property 'gambar' of non-object
 #0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
 #1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
@@ -380,4 +381,379 @@ CRITICAL - 2020-10-19 17:08:13 --> Trying to get property 'gambar' of non-object
 #3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #4 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+=======
+CRITICAL - 2020-10-19 01:21:09 --> Undefined index: status
+#0 C:\xampp\htdocs\e-smarcity\app\Views\v_kategorilist.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_kategorilist', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(15): view('v_kategorilist', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-19 01:37:33 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+CRITICAL - 2020-10-19 01:37:47 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 01:45:00 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 01:47:01 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 01:52:16 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 01:57:00 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:08:43 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:09:21 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:10:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:11:44 --> Call to a member function result_array() on null
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 02:23:40 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:25:14 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:25:27 --> Trying to get property 'gambar_modal' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:29:46 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:30:05 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:32:11 --> Call to a member function result() on null
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 02:32:27 --> Call to a member function result_array() on null
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 02:32:42 --> Call to undefined function App\Controllers\result_array()
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 02:33:42 --> Call to undefined function App\Controllers\gambar()
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 02:33:58 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:34:16 --> Call to undefined function App\Controllers\result_array()
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 02:34:29 --> Undefined variable: row
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:34:44 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:34:56 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:35:10 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:37:00 --> Undefined variable: gambar
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:39:57 --> Call to undefined method App\Models\Modelkategori::PilihBlog
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(74): CodeIgniter\Model->__call('PilihBlog', Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:40:53 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:41:19 --> Undefined variable: data
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(75): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:43:21 --> Call to undefined method App\Models\Modelkategori::PilihKategori
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(54): CodeIgniter\Model->__call('PilihKategori', Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->form_edit('8')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:44:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::getWhere()
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-10-19 02:45:11 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:49:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:49:39 --> Too few arguments to function App\Models\Modelkategori::edit_data(), 1 passed in C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php on line 76 and exactly 2 expected
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): App\Models\Modelkategori->edit_data(NULL)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:50:43 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 02:52:37 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 03:04:55 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+>>>>>>> Stashed changes
+#6 {main}
+CRITICAL - 2020-10-19 03:07:47 --> Trying to get property 'gambar' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-10-19 09:16:19 --> Trying to get property 'id_modal' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\form_edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('form_edit', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Blog.php(55): view('form_edit', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Blog->form_edit('assets', 'vendor', 'fontawesome-fre...', 'css', 'all.min.css')
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-19 09:16:20 --> Trying to get property 'id_modal' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\form_edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('form_edit', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Blog.php(55): view('form_edit', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Blog->form_edit('assets', 'css', 'sb-admin-2.min....')
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-19 09:16:20 --> Trying to get property 'id_modal' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\form_edit.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('form_edit', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Blog.php(55): view('form_edit', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Blog->form_edit('assets', 'vendor', 'fontawesome-fre...', 'css', 'all.min.css')
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-19 09:21:19 --> Undefined variable: judul
+#0 C:\xampp\htdocs\e-smarcity\app\Views\template\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('template/v_head...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(15): view('template/v_head...', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-19 09:21:44 --> Undefined variable: judul
+#0 C:\xampp\htdocs\e-smarcity\app\Views\template\v_header.php(12): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('template/v_head...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(15): view('template/v_head...', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-19 09:22:12 --> Undefined variable: judul
+#0 C:\xampp\htdocs\e-smarcity\app\Views\Kategori\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('kategori/index', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(18): view('kategori/index')
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}

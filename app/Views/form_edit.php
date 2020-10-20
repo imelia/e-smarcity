@@ -23,7 +23,7 @@
                     <label>Gambar</label><br/>
                     <?php
                         if (!empty($artikel->gambar_modal)) {
-                            echo '<img src="'.base_url("assets/img/$artikel->gambar_modal").'" width="150">';
+                            echo '<img src="'.base_url("assets/img/modal/$artikel->gambar_modal").'" width="150">';
                         }
                     ?>
                     <div class="form-group">

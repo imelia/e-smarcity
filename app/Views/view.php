@@ -19,7 +19,7 @@
     		<div class="row">
                 <?php
                         if (!empty($artikel->gambar_modal)) {
-                            echo '<img src="'.base_url("assets/img/$artikel->gambar_modal").'" width="30%">';
+                            echo '<img src="'.base_url("assets/img/modal/$artikel->gambar_modal").'" width="30%">';
                         }
                 ?>
                 <?php echo $artikel->link; ?>

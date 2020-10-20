@@ -12,6 +12,7 @@ class Blog extends BaseController
         {
             $data['validation'] = $this->validator;
             $data['artikel'] = $model->getArtikel();
+            
             return view('view_list',$data);
         }
     }
@@ -27,7 +28,7 @@ class Blog extends BaseController
             return redirect()->to('blog');
         }
         $validation = $this->validate([
-            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png]|max_size[file_upload,4096]'
+            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png]|max_size[file_upload,2000]'
         ]);
  
         if ($validation == FALSE) {
@@ -37,7 +38,7 @@ class Blog extends BaseController
         );
         } else {
             $upload = $this->request->getFile('file_upload');
-            $upload->move(WRITEPATH . '../public/assets/img/');
+            $upload->move(WRITEPATH . '../public/assets/img/modal/');
         $data = array(
             'deskripsi'  => $this->request->getPost('deskripsi'),
             'gambar_modal' => $upload->getName(),
@@ -73,10 +74,10 @@ class Blog extends BaseController
         } else {
         $dt = $model->PilihBlog($id)->getRow();
         $gambar = $dt->gambar_modal;
-        $path = '../public/assets/img/';
+        $path = '../public/assets/img/modal/';
         @unlink($path.$gambar);
             $upload = $this->request->getFile('file_upload');
-            $upload->move(WRITEPATH . '../public/assets/img/');
+            $upload->move(WRITEPATH . '../public/assets/img/modal/');
         $data = array(
             'deskripsi'  => $this->request->getPost('deskripsi'),
             'gambar_modal' => $upload->getName(),
@@ -93,7 +94,7 @@ class Blog extends BaseController
         $dt = $model->PilihBlog($id)->getRow();
         $model->HapusBlog($id);
         $gambar = $dt->gambar_modal;
-        $path = '../public/assets/img/';
+        $path = '../public/assets/img/modal/';
         @unlink($path.$gambar);
         return redirect()->to('./blog')->with('berhasil', 'Data Berhasil di Hapus');
     }

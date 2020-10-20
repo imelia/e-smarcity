@@ -37,7 +37,7 @@ class Kategori extends BaseController
         );
         } else {
             $upload = $this->request->getFile('file_upload');
-            $upload->move(WRITEPATH . '../public/assets/img/');
+            $upload->move(WRITEPATH . '../public/assets/img/kategori/');
         $data = array(
             'nama_kategori'  => $this->request->getPost('nama_kategori'),
             'status'  => $this->request->getPost('status'),
@@ -69,19 +69,20 @@ class Kategori extends BaseController
         $data = array(
             'nama_kategori'  => $this->request->getPost('nama_kategori'),
             'status'  => $this->request->getPost('status'),
-
+            'gambar' => $upload->getName(),
         );
         } else {
         $dt = $model->PilihKategori($id)->getRow();
         $gambar = $dt->gambar;
-        $path = '../public/assets/img/';
+        $path = '../public/assets/img/kategori/';
         @unlink($path.$gambar);
             $upload = $this->request->getFile('file_upload');
-            $upload->move(WRITEPATH . '../public/assets/img/');
+            $upload->move(WRITEPATH . '../public/assets/img/kategori/');
         $data = array(
             'nama_kategori'  => $this->request->getPost('nama_kategori'),
             'status'  => $this->request->getPost('status'),
             'gambar' => $upload->getName(),
+            
         );
         }
         $model->edit_data($id,$data);
@@ -94,7 +95,7 @@ class Kategori extends BaseController
         $dt = $model->PilihKategori($id)->getRow();
         $model->HapusKategori($id);
         $gambar = $dt->gambar;
-        $path = '../public/assets/img/';
+        $path = '../public/assets/img/kategori/';
         @unlink($path.$gambar);
         return redirect()->to('./kategori')->with('berhasil', 'Data Berhasil di Hapus');
     }

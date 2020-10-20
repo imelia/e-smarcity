@@ -45,7 +45,7 @@
                     <td><?=$row['id_modal'];?></td>
                     <td><?php
                         if (!empty($row["gambar_modal"])) {
-                            echo '<img src="'.base_url("assets/img/$row[gambar_modal]").'" width="100">';
+                            echo '<img src="'.base_url("assets/img/modal/$row[gambar_modal]").'" width="100">';
                         }
                     ?></td>
                     <td><?=$row['deskripsi'];?></td>

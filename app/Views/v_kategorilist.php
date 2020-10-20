@@ -45,7 +45,7 @@
                     <td><?=$row['id_kategori'];?></td>
                     <td><?php
                         if (!empty($row["gambar"])) {
-                            echo '<img src="'.base_url("assets/img/$row[gambar]").'" width="100">';
+                            echo '<img src="'.base_url("assets/img/kategori/$row[gambar]").'" width="100">';
                         }
                     ?></td>
                     <td><?=$row['nama_kategori'];?></td>

@@ -23,7 +23,7 @@
                     <label>Gambar</label><br/>
                     <?php
                         if (!empty($kategori->gambar)) {
-                            echo '<img src="'.base_url("assets/img/$kategori->gambar").'" width="150">';
+                            echo '<img src="'.base_url("assets/img/kategori/$kategori->gambar").'" width="150">';
                         }
                     ?>
                     <div class="form-group">

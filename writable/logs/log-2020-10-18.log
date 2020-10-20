@@ -1,0 +1,12 @@
+CRITICAL - 2020-10-18 23:14:46 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_footer', Array, true)
+#1 C:\xampp\htdocs\e-smarcity\app\Views\layout\v_wrapper.php(6): view('layout/v_footer')
+#2 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#4 C:\xampp\htdocs\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
