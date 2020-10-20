@@ -40,6 +40,7 @@
     </div>
     <div class="container">
         <a href="<?php echo base_url('status/create'); ?>" class="btn btn-success float-right mb-3"  onclick="return confirm('Apakah Anda yakin ingin menambah status?')">Tambah Status</a>
+        <a href="/home" class="btn btn-warning float-right mb-3" onclick="return confirm('Apakah Anda yakin ingin kembali ?')"> Kembali </a>
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead>

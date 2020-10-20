@@ -14,7 +14,8 @@
         </div>
     </div>
     <hr>
-    <a href="/kategori/form" class="btn btn-primary"  onclick="return confirm('Apakah Anda yakin ingin menambah kategori ini?')"><span class="fa fa-plus"></span> Input Data Kategori</a>
+    <a href="/home" class="btn btn-warning float-right mb-3" onclick="return confirm('Apakah Anda yakin ingin ke Halaman Utama ?')"><span class="fa fa-plus" ></span> Kembali </a>
+    <a href="/kategori/form" class="btn btn-primary"  onclick="return confirm('Apakah Anda yakin ?')"><span class="fa fa-plus"></span> Input Data Kategori</a>
     <hr>
             <?php if(!empty(session()->getFlashdata('berhasil'))){ ?>
                 <div class="alert alert-success">

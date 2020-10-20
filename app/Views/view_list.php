@@ -14,7 +14,8 @@
         </div>
     </div>
     <hr>
-    <a href="/blog/form" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin menambah modal ini?')"><span class="fa fa-plus" ></span> Input Data Modal</a>
+    <a href="/home" class="btn btn-warning float-right mb-3" onclick="return confirm('Apakah Anda yakin ingin kembali ?')"><span class="fa fa-plus" ></span> Kembali </a>
+    <a href="/blog/form" class="btn btn-success float-right mb-3" onclick="return confirm('Apakah Anda yakin ?')"><span class="fa fa-plus" ></span> Input Data Modal</a>
     <hr>
             <?php if(!empty(session()->getFlashdata('berhasil'))){ ?>
                 <div class="alert alert-success">

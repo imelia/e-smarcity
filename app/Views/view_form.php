@@ -40,9 +40,10 @@
                 
     			<div class="col-md-12">
     				<div class="form-group">
-                   		  <button class="btn btn-primary">Simpan</button> 
+							 <button class="btn btn-primary">Simpan</button> 
+							 <a href="/blog/" class="btn btn-warning float-right mb-3" onclick="return confirm('Apakah Anda yakin ingin kembali ?')"><span class="fa fa-plus" ></span> Batal </a>
                 	</div>	
-    			</div>
+				</div>
     		</div>
     	</div>
     </div>
