@@ -4,35 +4,25 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+        <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>Diskominfo Kabupaten Probolinggo<span>.</span></h3>
               <p>
-                A108 Adam Street <br>
-                NY 535022, USA<br><br>
-                <strong>Phone:</strong> +1 5589 55488 55<br>
-                <strong>Email:</strong> info@example.com<br>
+                JL. PANGLIMA SUDIRMAN No. 134 KOTA KRAKSAAN, KABUPATEN PROBOLINGGO <br>
+                <br><br>
+                <strong>Phone:</strong> +62335 846665<br>
+                <strong>Email:</strong> redaksi@probolinggokab.go.id<br>
               </p>
               <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://twitter.com/Infokabprob" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="https://www.facebook.com/infoprobolinggokab" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.youtube.com/channel/UCl1Skf0XEOJG0Ll_DBqRvMA" class="youtube"><i class="bx bxl-youtube"></i></a>
               </div>
             </div>
-          </div>
+          </div> 
 
-          
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
+        
+      
 
         </div>
       </div>
