@@ -1,0 +1,13 @@
+CRITICAL - 2020-10-21 01:41:51 --> Invalid file: templateuser/v_tentang.php
+#0 C:\xampp\htdocs\e-smarcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templateuser/v_...')
+#1 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#2 C:\xampp\htdocs\e-smarcity\app\Views\templateuser\v_wrapper.php(6): view('templateuser/v_...')
+#3 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\User.php(13): view('templateuser/v_...', Array)
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\User->index()
+#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#11 {main}
