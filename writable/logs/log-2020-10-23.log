@@ -1,0 +1,14 @@
+ERROR - 2020-10-23 10:30:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2020-10-23 10:30:17 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseConnection.php(629): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Models\Modelkategori.php(10): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(14): App\Models\Modelkategori->getKategori()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#10 {main}
