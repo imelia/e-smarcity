@@ -26,15 +26,15 @@
                     </div>  
                 </div>
     			<div class="col-md-12">
-    				<label>NAMA KATEGORI</label>
+    				<label>JUDUL KATEGORI</label>
     				<div class="form-group">
-                   		 <input type="text" name="nama_kategori" class="form-control"> 
+                   		 <input type="text" name="judul_kategori" class="form-control"> 
                 	</div>	
     			</div>
 				<div class="col-md-12">
-    				<label>STATUS</label>
+    				<label>LINK</label>
     				<div class="form-group">
-                   		 <input type="text" name="status" class="form-control"> 
+                   		 <input type="text" name="link" class="form-control"> 
                 	</div>	
     			</div>
     			<div class="col-md-12">

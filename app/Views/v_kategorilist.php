@@ -37,22 +37,22 @@
                 <tr>
                     <th>No</th>
                     <th>Gambar</th>
-                    <th>Nama Kategori</th>
-                    <th>Status</th>
+                    <th>Judul Kategori</th>
+                    <th>Link</th>
                     <th>Aksi</th>
                 </tr>
                     <?php foreach($kategori as $row):?>
                 <tr>
                     <td><?=$row['id_kategori'];?></td>
                     <td><?php
-                        if (!empty($row["gambar"])) {
-                            echo '<img src="'.base_url("assets/img/kategori/$row[gambar]").'" width="100">';
+                        if (!empty($row["gambar_kategori"])) {
+                            echo '<img src="'.base_url("assets/img/kategori/$row[gambar_kategori]").'" width="100">';
                         }
                     ?></td>
-                    <td><?=$row['nama_kategori'];?></td>
-                    <td><?=$row['status'];?></td>
+                    <td><?=$row['judul_kategori'];?></td>
+                    <td><?=$row['link'];?></td>
                     
-                    <td><a href="kategori/form_edit/<?=$row['id_kategori'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $row['nama_kategori']; ?> ini?')">Edit</a> | <a href="kategori/hapus/<?=$row['id_kategori'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $row['nama_kategori']; ?> ini?')">Hapus</a> </td>
+                    <td><a href="kategori/form_edit/<?=$row['id_kategori'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $row['judul_kategori']; ?> ini?')">Edit</a> | <a href="kategori/hapus/<?=$row['id_kategori'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $row['judul_kategori']; ?> ini?')">Hapus</a> </td>
                 </tr>
                 <?php endforeach;?>
             </table>

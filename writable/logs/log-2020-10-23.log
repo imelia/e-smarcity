@@ -12,3 +12,77 @@ CRITICAL - 2020-10-23 10:30:17 --> Unable to connect to the database.
 #8 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #10 {main}
+CRITICAL - 2020-10-23 11:30:56 --> Undefined index: nama_kategori
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\v_kategorilist.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_kategorilist', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(15): view('v_kategorilist', Array)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 11:31:33 --> Undefined index: nama_kategori
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\v_kategorilist.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_kategorilist', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(15): view('v_kategorilist', Array)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->index()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 11:32:11 --> Undefined property: stdClass::$nama_kategori
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\v_kategoriedit.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 37, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('v_kategoriedit', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(55): view('v_kategoriedit', Array)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->form_edit('1')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 11:34:01 --> width is not a valid rule.
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Validation\Validation.php(332): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('width')
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Validation\Validation.php(188): CodeIgniter\Validation\Validation->processRules('file_upload', 'file_upload', NULL, Array, Array)
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Controller.php(216): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(65): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 11:46:31 --> width is not a valid rule.
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Validation\Validation.php(332): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('width')
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Validation\Validation.php(188): CodeIgniter\Validation\Validation->processRules('file_upload', 'file_upload', NULL, Array, Array)
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Controller.php(216): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(65): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 12:08:50 -->  is not a valid rule.
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Validation\Validation.php(332): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Validation\Validation.php(188): CodeIgniter\Validation\Validation->processRules('file_upload', 'file_upload', NULL, Array, Array)
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Controller.php(216): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(65): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-23 12:09:17 --> Undefined property: stdClass::$gambar
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Kategori.php(76): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 76, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}

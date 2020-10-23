@@ -22,8 +22,8 @@
             <div class="col-md-12">
                     <label>Gambar</label><br/>
                     <?php
-                        if (!empty($kategori->gambar)) {
-                            echo '<img src="'.base_url("assets/img/kategori/$kategori->gambar").'" width="150">';
+                        if (!empty($kategori->gambar_kategori)) {
+                            echo '<img src="'.base_url("assets/img/kategori/$kategori->gambar_kategori").'" width="150">';
                         }
                     ?>
                     <div class="form-group">
@@ -31,17 +31,17 @@
                     </div>  
                 </div>
     			<div class="col-md-12">
-    				<label>NAMA KATEGORI</label>
+    				<label>JUDUL KATEGORI</label>
     				<div class="form-group">
                         <input type="hidden" name="id_kategori" class="form-control" value="<?=$kategori->id_kategori?>">
-                   		 <input type="text" name="nama_kategori" class="form-control" value="<?=$kategori->nama_kategori?>"> 
+                   		 <input type="text" name="judul_kategori" class="form-control" value="<?=$kategori->judul_kategori?>"> 
                 	</div>	
     			</div>
                 <div class="col-md-12">
-    				<label>STATUS</label>
+    				<label>LINK</label>
     				<div class="form-group">
-                        <input type="hidden" name="id" class="form-control" value="<?=$kategori->status?>">
-                   		 <input type="text" name="status" class="form-control" value="<?=$kategori->status?>"> 
+                        <input type="hidden" name="id" class="form-control" value="<?=$kategori->link?>">
+                   		 <input type="text" name="link" class="form-control" value="<?=$kategori->link?>"> 
                 	</div>	
     			</div>
 
