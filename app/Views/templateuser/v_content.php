@@ -5,18 +5,9 @@
         <div class="owl-carousel testimonials-carousel">
 
           <div class="testimonial-item">
-<<<<<<< Updated upstream
+
             <img src="assetsuser/img/hero-bg.jpg" height="300pxs" alt="">
-=======
-            <img src="assetsuser/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              <img src="assetsuser/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
->>>>>>> Stashed changes
+            
           </div>
           </div>
 

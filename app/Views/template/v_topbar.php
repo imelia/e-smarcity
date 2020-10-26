@@ -37,7 +37,7 @@
 
           <!-- Nav Item - Pages Collapse Menu -->
               <li class="nav-item">
-                <a class="nav-link collapsed" href="<?= base_url('homefront'); ?>"> 
+                <a class="nav-link collapsed" href="<?= base_url('user'); ?>"> 
                   <span class="mr-3 d-none d-lg-inline text-gray-600 small">Go To Portal</span>
                   <img class="img-profile rounded-circle" src="assets/img/profile/logo.png"> 
                 </a>
