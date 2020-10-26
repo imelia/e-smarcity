@@ -120,7 +120,9 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-            <mark>VISI MIS : ab</mark>
+           <p> <mark>VISI MISI : </mark></p>
+           <p> <mark>VISI : </mark></p>
+           <p> <mark>MISI : </mark></p>
               <!--<img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
@@ -135,10 +137,10 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-            <mark>TUJUAN : </mark>
-            <mark>Berdasarkan visi dan misi, Dinas Komunikasi, Informatika, Statistik dan Persandian Kabupaten Probolinggo menentukan tujuan, sebagai berikut :
-                Meningkatkan Keterbukaan Informasi Publik
-                Meningkatkan Implementasi Electronic Government</mark>
+            <p><mark>TUJUAN : </mark></p>
+            <p><mark>Berdasarkan visi dan misi, Dinas Komunikasi, Informatika, Statistik dan Persandian Kabupaten Probolinggo menentukan tujuan, sebagai berikut :</mark></p>
+               <p><mark> Meningkatkan Keterbukaan Informasi Publik</mark></p>
+               <p><mark> Meningkatkan Implementasi Electronic Government</mark></p>
              <!-- <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
@@ -153,23 +155,23 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-            <mark>STRUKTUR ORGANISASI :
-Kepala Dinas : Yulius Cristian S.I.P, MM.
-Sekretaris : Drs. Sumaidi
-Kasubbag. Umum dan Kepegawaian : Rasyidi, S.Sos, MM.
-Kasubbag. Perencanaan dan Keuangan : Hasyim Ashari, SH,MM.
-Kepala Bidang Informasi dan Komunikasi Publik : Ofie Agustin, ST., M.Si.
-Kasi Pengelolaan Informasi Publik : Wahyu Hidayat, S.Sos. M.Si
-Kasi Pengelolaan Komunikasi Publik : Yogo Prasetyo, S.Kom
-Kasi Media Publik : Yulistina Widya Ningrum, S.Sos.
-Kepala Bidang Aplikasi dan Infrastruktur TIK : Ir. R. Sugeng Rahardjo, MMA.
-Kasi Pengembangan Aplikasi : Dewi Suci Rani, S.Kom.
-Kasi Infrastruktur TIK : Dody Kusbiantoro, S.Kom.
-Kasi Tata Kelola E-Goverment dan Pemberdayaan TIK : Mirza Surya Adhita, S.Kom
-Kepala Bidang Statistik dan Persandian : Drs. MA. Satrio Sinung Raharjo
-Kasi Pengolahan Data dan Dokumentasi : Ninuk Isnaeni, SH.
-Kasi Statistik : Aloysius Agus Mulyanto, S.Si, M.Si
-Kasi Persandian : Bambang Heri Purnomo, SE.</mark>
+           <p><mark>STRUKTUR ORGANISASI : </mark></p>
+            <p><mark>Kepala Dinas : Yulius Cristian S.I.P, MM. </mark></p>
+            <p><mark>Sekretaris : Drs. Sumaidi</mark></p>
+            <p><mark> Kasubbag. Umum dan Kepegawaian : Rasyidi, S.Sos, MM.</mark></p>
+            <p><mark> Kasubbag. Perencanaan dan Keuangan : Hasyim Ashari, SH,MM.</mark></p>
+            <p><mark>Kepala Bidang Informasi dan Komunikasi Publik : Ofie Agustin, ST., M.Si.</mark></p>
+            <p><mark>Kasi Pengelolaan Informasi Publik : Wahyu Hidayat, S.Sos. M.Si</mark></p>
+            <p><mark>Kasi Pengelolaan Komunikasi Publik : Yogo Prasetyo, S.Kom</mark></p>
+            <p><mark>Kasi Media Publik : Yulistina Widya Ningrum, S.Sos.</mark></p>
+            <p><mark>Kepala Bidang Aplikasi dan Infrastruktur TIK : Ir. R. Sugeng Rahardjo, MMA.</mark></p>
+            <p><mark>Kasi Pengembangan Aplikasi : Dewi Suci Rani, S.Kom.</mark></p>
+            <p><mark>Kasi Infrastruktur TIK : Dody Kusbiantoro, S.Kom.</mark></p>
+            <p><mark>Kasi Tata Kelola E-Goverment dan Pemberdayaan TIK : Mirza Surya Adhita, S.Kom</mark></p>
+            <p><mark>Kepala Bidang Statistik dan Persandian : Drs. MA. Satrio Sinung Raharjo</mark></p>
+            <p><mark>Kasi Pengolahan Data dan Dokumentasi : Ninuk Isnaeni, SH.</mark></p>
+            <p><mark>Kasi Statistik : Aloysius Agus Mulyanto, S.Si, M.Si</mark></p>
+            <p><mark>Kasi Persandian : Bambang Heri Purnomo, SE.</mark></p>
              <!-- <img src="../assetsuser/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
