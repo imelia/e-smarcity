@@ -42,7 +42,7 @@
 </li>
 
 <!-- Nav Item - Pages Collapse Menu -->
-<li class="nav-item">
+<!--<li class="nav-item">
   <a class="nav-link collapsed" href="<?= base_url('blog'); ?>"> 
     <i class="fas fa-fw fa-table"></i>
     <span>Data Modal</span>
@@ -54,10 +54,10 @@
       <a class="collapse-item" href="cards.html">Cards</a>
     </div>
   </div>
-</li>
+</li> -->
 
 <!-- Nav Item - Pages Collapse Menu -->
-<li class="nav-item">
+<!--<li class="nav-item">
   <a class="nav-link collapsed" href="<?= base_url('status'); ?>"> 
     <i class="fas fa-fw fa-table"></i>
     <span>Data Status</span>
@@ -69,7 +69,7 @@
       <a class="collapse-item" href="cards.html">Cards</a>
     </div>
   </div>
-</li>
+</li> -->
 
 <!-- Nav Item - Pages Collapse Menu -->
 <li class="nav-item">
