@@ -86,3 +86,31 @@ CRITICAL - 2020-10-23 12:09:17 --> Undefined property: stdClass::$gambar
 #4 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+CRITICAL - 2020-10-23 12:34:00 --> Undefined index: gambar
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-23 12:35:03 --> Undefined index: gambar
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_content.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_conten...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\layout\v_wrapper.php(5): view('layout/v_conten...')
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('layout/v_wrappe...', Array, true)
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Homefront.php(28): view('layout/v_wrappe...', Array)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Homefront->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Homefront))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}

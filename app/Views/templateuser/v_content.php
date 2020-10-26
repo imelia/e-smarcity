@@ -26,15 +26,18 @@
         </div>
 
         <div class="row">
+        <?php foreach ($user as $u) : ?>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <img class="img-fluid" src="/assets/img/kategori/<?= $u['gambar_kategori']; ?>" width="100%" height="50%" alt="">
+              <!--<div class="icon"><i class="bx bxl-dribbble"></i></div> --> 
+              <h4><?= $u['judul_kategori']; ?></h4>
+              <p><?= $u['link']; ?></p>
             </div>
           </div>
+          <?php endforeach; ?>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Sed ut perspiciatis</a></h4>
@@ -76,7 +79,7 @@
 
         </div>
 
-      </div>
+      </div> -->
     </section><!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
