@@ -5,18 +5,9 @@
         <div class="owl-carousel testimonials-carousel">
 
           <div class="testimonial-item">
-<<<<<<< Updated upstream
+
             <img src="assetsuser/img/hero-bg.jpg" height="300pxs" alt="">
-=======
-            <img src="assetsuser/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
-            <p>
-              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-              <img src="assetsuser/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-            </p>
->>>>>>> Stashed changes
+            
           </div>
           </div>
 
@@ -35,15 +26,18 @@
         </div>
 
         <div class="row">
+        <?php foreach ($user as $u) : ?>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <img class="img-fluid" src="/assets/img/kategori/<?= $u['gambar_kategori']; ?>" width="100%" height="50%" alt="">
+              <!--<div class="icon"><i class="bx bxl-dribbble"></i></div> --> 
+              <h4><?= $u['judul_kategori']; ?></h4>
+              <p><a href="<?= $u['link'] ?>"><?= $u['link']; ?></p>
             </div>
           </div>
+          <?php endforeach; ?>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+          <!-- <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Sed ut perspiciatis</a></h4>
@@ -85,7 +79,7 @@
 
         </div>
 
-      </div>
+      </div> -->
     </section><!-- End Services Section -->
 
     <!-- ======= Contact Section ======= -->
