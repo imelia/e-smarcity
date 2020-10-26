@@ -32,7 +32,7 @@
             <img class="img-fluid" src="/assets/img/kategori/<?= $u['gambar_kategori']; ?>" width="100%" height="50%" alt="">
               <!--<div class="icon"><i class="bx bxl-dribbble"></i></div> --> 
               <h4><?= $u['judul_kategori']; ?></h4>
-              <p><?= $u['link']; ?></p>
+              <p><a href="<?= $u['link'] ?>"><?= $u['link']; ?></p>
             </div>
           </div>
           <?php endforeach; ?>
