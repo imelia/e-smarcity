@@ -42,7 +42,7 @@
    <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">Diskominfo <span>.</span></a></h1>
+      <h1 class="logo"><a href="/home">Diskominfo <span>.</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -50,7 +50,7 @@
         <ul>
               <li class="active"><a href="/user/">Home</a></li>
               <li class="active"><a href="/tentang/">Tentang Kami</a></li>
-              <li><a href="/home" class="get-started-btn scrollto">Admin</a></li>
+              <li><a href="/login" class="get-started-btn scrollto">Admin</a></li>
         </ul>
       </nav><!-- .nav-menu -->
       
@@ -73,24 +73,24 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Check our Portfolio</p>
+          <h2>TENTANG KAMI</h2>
+          <p>DINAS KOMUNIKASI INFORMATIKA STATISTIK DAN PERSANDIAN</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <!--<li data-filter="*" class="filter-active">All</li>-->
+              <li data-filter=".filter-app">vISI MISI</li>
+              <li data-filter=".filter-card">TUJUAN</li>
+              <li data-filter=".filter-web">STRUKTUR ORGANISASI</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+         <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -116,11 +116,12 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <mark>VISI MIS : ab</mark>
+              <!--<img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
                 <p>App</p>
@@ -128,13 +129,17 @@
                   <a href="assets/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
-              </div>
+              </div>-->
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <mark>TUJUAN : </mark>
+            <mark>Berdasarkan visi dan misi, Dinas Komunikasi, Informatika, Statistik dan Persandian Kabupaten Probolinggo menentukan tujuan, sebagai berikut :
+                Meningkatkan Keterbukaan Informasi Publik
+                Meningkatkan Implementasi Electronic Government</mark>
+             <!-- <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
                 <p>Card</p>
@@ -142,13 +147,30 @@
                   <a href="assets/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
-              </div>
+              </div>-->
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="../assetsuser/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <mark>STRUKTUR ORGANISASI :
+Kepala Dinas : Yulius Cristian S.I.P, MM.
+Sekretaris : Drs. Sumaidi
+Kasubbag. Umum dan Kepegawaian : Rasyidi, S.Sos, MM.
+Kasubbag. Perencanaan dan Keuangan : Hasyim Ashari, SH,MM.
+Kepala Bidang Informasi dan Komunikasi Publik : Ofie Agustin, ST., M.Si.
+Kasi Pengelolaan Informasi Publik : Wahyu Hidayat, S.Sos. M.Si
+Kasi Pengelolaan Komunikasi Publik : Yogo Prasetyo, S.Kom
+Kasi Media Publik : Yulistina Widya Ningrum, S.Sos.
+Kepala Bidang Aplikasi dan Infrastruktur TIK : Ir. R. Sugeng Rahardjo, MMA.
+Kasi Pengembangan Aplikasi : Dewi Suci Rani, S.Kom.
+Kasi Infrastruktur TIK : Dody Kusbiantoro, S.Kom.
+Kasi Tata Kelola E-Goverment dan Pemberdayaan TIK : Mirza Surya Adhita, S.Kom
+Kepala Bidang Statistik dan Persandian : Drs. MA. Satrio Sinung Raharjo
+Kasi Pengolahan Data dan Dokumentasi : Ninuk Isnaeni, SH.
+Kasi Statistik : Aloysius Agus Mulyanto, S.Si, M.Si
+Kasi Persandian : Bambang Heri Purnomo, SE.</mark>
+             <!-- <img src="../assetsuser/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>
                 <p>Web</p>
@@ -156,11 +178,11 @@
                   <a href="../assetsuser/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
-              </div>
+              </div>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+         <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="../assetsuser/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
@@ -214,7 +236,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div>-->
 
         </div>
 
