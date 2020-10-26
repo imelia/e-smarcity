@@ -243,3 +243,11 @@ CRITICAL - 2020-10-25 21:35:22 --> Undefined variable: h
 #10 E:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #11 E:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('E:\\xampp\\htdocs...')
 #12 {main}
+CRITICAL - 2020-10-25 23:37:22 --> Undefined variable: upload
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Kategori.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kategori->edit()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kategori))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
