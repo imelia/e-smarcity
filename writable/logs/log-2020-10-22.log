@@ -1,17 +1,4 @@
-CRITICAL - 2020-10-21 01:41:51 --> Invalid file: templateuser/v_tentang.php
-#0 C:\xampp\htdocs\e-smarcity\system\View\View.php(225): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templateuser/v_...')
-#1 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
-#2 C:\xampp\htdocs\e-smarcity\app\Views\templateuser\v_wrapper.php(6): view('templateuser/v_...')
-#3 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
-#4 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
-#5 C:\xampp\htdocs\e-smarcity\app\Controllers\User.php(13): view('templateuser/v_...', Array)
-#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\User->index()
-#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
-#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
-#11 {main}
-ERROR - 2020-10-21 22:08:14 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
+ERROR - 2020-10-22 02:09:17 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
 Stack trace:
 #0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
 #1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
@@ -25,7 +12,7 @@ Stack trace:
 #9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #11 {main}
-CRITICAL - 2020-10-21 22:08:14 --> Table 'smartcity.login' doesn't exist
+CRITICAL - 2020-10-22 02:09:17 --> Table 'smartcity.login' doesn't exist
 #0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
 #1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
 #2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
@@ -38,88 +25,61 @@ CRITICAL - 2020-10-21 22:08:14 --> Table 'smartcity.login' doesn't exist
 #9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #11 {main}
-ERROR - 2020-10-21 22:18:31 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
+ERROR - 2020-10-22 02:14:50 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
 Stack trace:
 #0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
 #1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
 #2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
 #3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
 #4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(19): CodeIgniter\Model->first()
 #6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
 #7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
 #8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #11 {main}
-CRITICAL - 2020-10-21 22:18:32 --> Table 'smartcity.login' doesn't exist
+CRITICAL - 2020-10-22 02:14:50 --> Table 'smartcity.login' doesn't exist
 #0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
 #1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
 #2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
 #3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
 #4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(19): CodeIgniter\Model->first()
 #6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
 #7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
 #8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #11 {main}
-ERROR - 2020-10-21 22:22:11 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
+ERROR - 2020-10-22 02:19:27 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
 Stack trace:
 #0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
 #1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
 #2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
 #3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
 #4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(19): CodeIgniter\Model->first()
 #6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
 #7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
 #8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #11 {main}
-CRITICAL - 2020-10-21 22:22:11 --> Table 'smartcity.login' doesn't exist
+CRITICAL - 2020-10-22 02:19:27 --> Table 'smartcity.login' doesn't exist
 #0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
 #1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
 #2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
 #3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
 #4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(20): CodeIgniter\Model->first()
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(19): CodeIgniter\Model->first()
 #6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
 #7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
 #8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #11 {main}
-ERROR - 2020-10-21 22:32:06 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
-Stack trace:
-#0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
-#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(20): CodeIgniter\Model->first()
-#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
-#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
-#11 {main}
-CRITICAL - 2020-10-21 22:32:06 --> Table 'smartcity.login' doesn't exist
-#0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
-#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
-#2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
-#3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
-#4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
-#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(20): CodeIgniter\Model->first()
-#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
-#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
-#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
-#10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
-#11 {main}
-CRITICAL - 2020-10-21 23:18:17 --> Call to undefined function getFlashdata()
+CRITICAL - 2020-10-22 20:51:11 --> Call to undefined function set_value()
 #0 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include()
 #1 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('login', Array, true)
 #2 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(10): view('login')
@@ -129,3 +89,94 @@ CRITICAL - 2020-10-21 23:18:17 --> Call to undefined function getFlashdata()
 #6 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #7 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #8 {main}
+ERROR - 2020-10-22 20:59:25 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(19): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-10-22 20:59:25 --> Table 'smartcity.login' doesn't exist
+#0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(19): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2020-10-22 21:29:20 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(19): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-10-22 21:29:21 --> Table 'smartcity.login' doesn't exist
+#0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-smarcity\system\Model.php(586): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-smarcity\app\Controllers\Login.php(19): CodeIgniter\Model->first()
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Login->auth()
+#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-10-22 22:29:13 --> Undefined property: App\Controllers\Admin::$admin
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Admin.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2020-10-22 22:29:49 --> mysqli_sql_exception: Table 'smartcity.login' doesn't exist in C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-smarcity\system\Model.php(2062): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-smarcity\app\Models\Modeladmin.php(12): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\e-smarcity\app\Controllers\Admin.php(13): App\Models\Modeladmin->getAdmin()
+#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Admin->index()
+#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-10-22 22:29:49 --> Table 'smartcity.login' doesn't exist
+#0 C:\xampp\htdocs\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-smarcity\system\Model.php(2062): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-smarcity\app\Models\Modeladmin.php(12): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\e-smarcity\app\Controllers\Admin.php(13): App\Models\Modeladmin->getAdmin()
+#7 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Admin->index()
+#8 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}

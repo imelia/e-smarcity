@@ -6,6 +6,8 @@ class Home extends BaseController
 {
   public function index()
   {
+        $session = session();
+        echo "Welcome back, ".$session->get('user_email');
     $data = [
       'judul' => 'Tampilan Admin'
     ];
@@ -16,4 +18,6 @@ class Home extends BaseController
     echo view('home/index');
     echo view('template/v_footer');
   }
+
+  
 }
