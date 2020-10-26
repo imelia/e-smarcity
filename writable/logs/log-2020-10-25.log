@@ -186,3 +186,14 @@ CRITICAL - 2020-10-25 07:55:43 -->  is not a valid rule.
 #7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #9 {main}
+CRITICAL - 2020-10-25 20:45:59 -->  is not a valid rule.
+#0 C:\xampp\htdocs\e-smarcity\system\Validation\Validation.php(332): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\e-smarcity\system\Validation\Validation.php(188): CodeIgniter\Validation\Validation->processRules('email', 'email', 'imeliarosita26@...', Array, Array)
+#2 C:\xampp\htdocs\e-smarcity\system\Controller.php(216): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Register.php(28): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Register->save()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
