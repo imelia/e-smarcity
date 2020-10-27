@@ -12,11 +12,11 @@
   <title>SB Admin 2 - Dashboard</title>
 
  <!-- Custom fonts for this template-->
- <link href="../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+ <link href="<?php echo base_url() ?>/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
   <!-- Custom styles for this template-->
-  <link href="../assets/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assets/css/sb-admin-2.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
@@ -39,7 +39,7 @@
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item">
-  <a class="nav-link" href="<?= base_url('dashboard'); ?>">
+  <a class="nav-link" href="<?= base_url('/home/dashboard'); ?>">
     <i class="fas fa-fw fa-tachometer-alt"></i>
     <span>Dashboard</span></a>
 </li>
@@ -475,36 +475,36 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+          <h5 class="modal-title" id="exampleModalLabel"></h5>
           <button class="close" type="button" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
         </div>
-        <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+        <div class="modal-body">Apakah anda yakin ingin logout ?</div>
         <div class="modal-footer">
           <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-          <a class="btn btn-primary" href="login.html">Logout</a>
+          <a class="btn btn-primary" href="<?= base_url('login/logout'); ?>" >Logout</a>
         </div>
       </div>
     </div>
   </div>
 
   <!-- Bootstrap core JavaScript-->
-  <script src="../assets/vendor/jquery/jquery.min.js"></script>
-  <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url() ?>/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo base_url() ?>/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="<?php echo base_url() ?>/assets/vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="../assets/js/sb-admin-2.min.js"></script>
+  <script src="<?php echo base_url() ?>/assets/js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="../assets/vendor/chart.js/Chart.min.js"></script>
+  <script src="<?php echo base_url() ?>/assets/vendor/chart.js/Chart.min.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="../assets/js/demo/chart-area-demo.js"></script>
-  <script src="../assets/js/demo/chart-pie-demo.js"></script>
+  <script src="<?php echo base_url() ?>/assets/js/demo/chart-area-demo.js"></script>
+  <script src="<?php echo base_url() ?>/assets/js/demo/chart-pie-demo.js"></script>
 
 </body>
 
