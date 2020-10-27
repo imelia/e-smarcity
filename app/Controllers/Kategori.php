@@ -70,7 +70,6 @@ class Kategori extends BaseController
         $data = array(
             'judul_kategori'  => $this->request->getPost('judul_kategori'),
             'link'  => $this->request->getPost('link'),
-            'gambar_kategori' => $upload->getName(),
         );
         } else {
         $dt = $model->PilihKategori($id)->getRow();
