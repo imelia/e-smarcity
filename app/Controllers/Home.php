@@ -19,5 +19,7 @@ class Home extends BaseController
     echo view('template/v_footer');
   }
 
-  
+  public function dashboard(){		
+    echo view('dashboard');
+	}
 }

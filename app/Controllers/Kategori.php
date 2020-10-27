@@ -12,7 +12,8 @@ class Kategori extends BaseController
         {
             $data['validation'] = $this->validator;
             $data['kategori'] = $model->getKategori();
-            return view('v_kategorilist',$data);
+            return view('v_kategorilist2',$data);
+            
         }
     }
 

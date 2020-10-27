@@ -29,7 +29,7 @@ class Login extends Controller
                     'logged_in'     => TRUE
                 ];
                 $session->set($ses_data);
-                return redirect()->to('/home');
+                return redirect()->to('/home/dashboard');
             }else{
                 $session->setFlashdata('msg', 'Password Salah');
                 return redirect()->to('/login');
