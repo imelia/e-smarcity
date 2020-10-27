@@ -50,7 +50,7 @@
         <ul>
               <li class="active"><a href="/user/">Home</a></li>
               <li class="active"><a href="/tentang/">Tentang Kami</a></li>
-              <li><a href="/login" class="get-started-btn scrollto">Admin</a></li>
+              <li><a href="/login" class="get-started-btn scrollto">Login</a></li>
         </ul>
       </nav><!-- .nav-menu -->
       
