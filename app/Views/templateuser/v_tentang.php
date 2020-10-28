@@ -10,23 +10,23 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="../assetsuser/img/favicon.png" rel="icon">
-  <link href="../assetsuser/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?php echo base_url() ?>/assetsuser/img/favicon.png" rel="icon">
+  <link href="<?php echo base_url() ?>/assetsuser/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="../assetsuser/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="../assetsuser/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="../assetsuser/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="../assetsuser/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="../assetsuser/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="../assetsuser/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="../assetsuser/vendor/aos/aos.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assetsuser/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assetsuser/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assetsuser/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assetsuser/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assetsuser/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assetsuser/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assetsuser/vendor/aos/aos.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="../assetsuser/css/style.css" rel="stylesheet">
+  <link href="<?php echo base_url() ?>/assetsuser/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Gp - v2.1.0
@@ -289,19 +289,19 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="../assetsuser/vendor/jquery/jquery.min.js"></script>
-  <script src="../assetsuser/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assetsuser/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="../assetsuser/vendor/php-email-form/validate.js"></script>
-  <script src="../assetsuser/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="../assetsuser/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="../assetsuser/vendor/venobox/venobox.min.js"></script>
-  <script src="../assetsuser/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="../assetsuser/vendor/counterup/counterup.min.js"></script>
-  <script src="../assetsuser/vendor/aos/aos.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/php-email-form/validate.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/venobox/venobox.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/counterup/counterup.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../assetsuser/js/main.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/js/main.js"></script>
 
 </body>
 

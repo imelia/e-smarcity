@@ -1,0 +1,13 @@
+CRITICAL - 2020-10-28 02:23:38 --> Class 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Kirim_email->send()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Kirim_email))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2020-10-28 03:45:06 --> Email: sendWithSmtp throwed stream_socket_enable_crypto(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2020-10-28 03:46:00 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number
+ERROR - 2020-10-28 04:00:53 --> Email: sendWithSmtp throwed fsockopen(): SSL operation failed with code 1. OpenSSL Error messages:
+error:1408F10B:SSL routines:ssl3_get_record:wrong version number

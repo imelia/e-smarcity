@@ -6,7 +6,7 @@
 
           <div class="testimonial-item">
 
-            <img src="assetsuser/img/hero-bg.jpg" height="300pxs" alt="">
+            <img src="<?php echo base_url() ?>/assetsuser/img/hero-bg.jpg" height="300pxs" alt="">
             
           </div>
           </div>
@@ -29,7 +29,7 @@
         <?php foreach ($user as $u) : ?>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-            <img class="img-fluid" src="/assets/img/kategori/<?= $u['gambar_kategori']; ?>" width="100%" height="50%" alt="">
+            <img class="img-fluid" src="<?php echo base_url() ?>/assets/img/kategori/<?= $u['gambar_kategori']; ?>" width="100%" height="50%" alt="">
               <!--<div class="icon"><i class="bx bxl-dribbble"></i></div> --> 
               <h4 id=""><a target="_blank" href="<?= $u['link'] ?>"><?= $u['judul_kategori']; ?></h4>
             </div>
@@ -102,8 +102,7 @@
 
               <div class="email">
                 <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
+                <h4><a target="_blank" href="/sendmail/">Kritik & Saran</a></h4>
               </div>
 
               <div class="phone">
@@ -113,37 +112,6 @@
               </div>
 
             </div>
-
-          </div>
-
-          <div class="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                  <div class="validate"></div>
-                </div>
-                <div class="col-md-6 form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                  <div class="validate"></div>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                <div class="validate"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                <div class="validate"></div>
-              </div>
-              <div class="mb-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
 
           </div>
 

@@ -46,19 +46,19 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
-  <script src="../assetsuser/vendor/jquery/jquery.min.js"></script>
-  <script src="../assetsuser/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="../assetsuser/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="../assetsuser/vendor/php-email-form/validate.js"></script>
-  <script src="../assetsuser/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="../assetsuser/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="../assetsuser/vendor/venobox/venobox.min.js"></script>
-  <script src="../assetsuser/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="../assetsuser/vendor/counterup/counterup.min.js"></script>
-  <script src="../assetsuser/vendor/aos/aos.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/jquery/jquery.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/php-email-form/validate.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/venobox/venobox.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/counterup/counterup.min.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../assetsuser/js/main.js"></script>
+  <script src="<?php echo base_url() ?>/assetsuser/js/main.js"></script>
 
 </body>
 
