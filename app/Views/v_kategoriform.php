@@ -22,7 +22,7 @@
             <div class="col-md-12">
                     <label>Photo</label>
                     <div class="form-group">
-                         <input type="file" name="file_upload" class="form-control"> 
+                         <input type="file" name="file_upload" class="form-control is-invalid"> 
                     </div>  
                 </div>
     			<div class="col-md-12">

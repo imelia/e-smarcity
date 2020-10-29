@@ -2,8 +2,19 @@
 
 namespace App\Controllers;
 
+use App\Models\Modeldashboard;
+
 class Home extends BaseController
 {
+  protected $Modeldashboard;
+
+  public function __Construct()
+
+  {
+    $this->Modeldashboard = new Modeldashboard();
+  }
+
+
   public function index()
   {
         $session = session();
@@ -19,7 +30,15 @@ class Home extends BaseController
     echo view('template/v_footer');
   }
 
-  public function dashboard(){		
-    echo view('dashboard');
-	}
+  public function dashboard()
+  {
+    $Home = $this->Modeldashboard->findAll();
+
+    $data = [
+      'judul' => 'Dashboard',
+      'home' => $Home,
+    ];
+
+    echo view('dashboard', $data);
+  }
 }
