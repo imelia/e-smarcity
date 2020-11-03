@@ -7,6 +7,7 @@ class Kategori extends BaseController
 {
     public function index()
     {
+        $session = session();
         $model = new Modelkategori();
         if (!$this->validate([]))
         {

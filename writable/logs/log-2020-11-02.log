@@ -1,0 +1,127 @@
+ERROR - 2020-11-02 18:38:33 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2020-11-02 18:38:33 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\e-smarcity\system\Database\BaseConnection.php(629): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\e-smarcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\User.php(19): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\User->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 18:42:40 --> Undefined variable: lome
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 224, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(45): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 18:43:08 --> Undefined variable: Lome
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(224): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 224, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(45): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 18:43:49 --> Class 'App\Models\Modellogin' not found
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(936): App\Controllers\Home->__Construct()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(444): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 18:58:47 --> Undefined variable: session
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(42): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 19:01:44 --> Undefined variable: session
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(42): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 19:04:37 --> Undefined variable: session
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(42): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 19:09:09 --> Undefined variable: session
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(42): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 19:13:11 --> Undefined variable: session
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(42): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 19:13:30 --> Undefined variable: session
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(42): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 19:13:46 --> Undefined variable: session
+#0 C:\xampp\htdocs\e-smarcity\app\Views\dashboard.php(143): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 143, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('dashboard', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Home.php(42): view('dashboard', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Home->dashboard()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 21:53:52 --> Call to undefined method App\Models\Modeldownload::SimpanKategori
+#0 C:\xampp\htdocs\e-smarcity\app\Controllers\Download.php(47): CodeIgniter\Model->__call('SimpanKategori', Array)
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->simpan()
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}

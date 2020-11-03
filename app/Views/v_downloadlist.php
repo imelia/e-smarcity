@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Data Kategori</title>
+  <title>Data File Download</title>
 
   <!-- Custom fonts for this template -->
   <link href="<?php echo base_url() ?>/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -60,7 +60,7 @@
 <li class="nav-item">
   <a class="nav-link collapsed" href="<?= base_url('kategori'); ?>"> 
     <i class="fas fa-fw fa-table"></i>
-    <span>Data Kategori</span>
+    <span>Data kategori</span>
   </a>
   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
     <div class="bg-white py-2 collapse-inner rounded">
@@ -70,7 +70,6 @@
     </div>
   </div>
 </li>
-
 <!-- Nav Item - Pages Collapse Menu -->
 <li class="nav-item">
   <a class="nav-link collapsed" href="<?= base_url('download'); ?>"> 
@@ -85,36 +84,6 @@
     </div>
   </div>
 </li>
-
-<!-- Nav Item - Pages Collapse Menu -->
-<!--<li class="nav-item">
-  <a class="nav-link collapsed" href="<?= base_url('blog'); ?>"> 
-    <i class="fas fa-fw fa-table"></i>
-    <span>Data Modal</span>
-  </a>
-  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-    <div class="bg-white py-2 collapse-inner rounded">
-      <h6 class="collapse-header">Custom Components:</h6>
-      <a class="collapse-item" href="buttons.html">Buttons</a>
-      <a class="collapse-item" href="cards.html">Cards</a>
-    </div>
-  </div>
-</li> -->
-
-<!-- Nav Item - Pages Collapse Menu -->
-<!--<li class="nav-item">
-  <a class="nav-link collapsed" href="<?= base_url('status'); ?>"> 
-    <i class="fas fa-fw fa-table"></i>
-    <span>Data Status</span>
-  </a>
-  <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-    <div class="bg-white py-2 collapse-inner rounded">
-      <h6 class="collapse-header">Custom Components:</h6>
-      <a class="collapse-item" href="buttons.html">Buttons</a>
-      <a class="collapse-item" href="cards.html">Cards</a>
-    </div>
-  </div>
-</li> -->
 
 
 
@@ -150,23 +119,22 @@
     </button>
 
 
-     <!-- Topbar Navbar -->
-     <ul class="navbar-nav ml-auto">
+    <!-- Topbar Navbar -->
+    <ul class="navbar-nav ml-auto">
       <!-- Nav Item - User Information -->
       <li class="nav-item dropdown no-arrow">
         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <span class="mr-2 d-none d-lg-inline text-gray-600 small"></span>
-          <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60">
+          <img class="img-profile rounded-circle" src="<?php echo base_url() ?>/assets/img/profile/user.png"> 
         </a>
         <!-- Dropdown - User Information -->
         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
-          <a class="dropdown-item" href="<?= base_url('login/logout');?>">
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="<?= base_url('login/logout'); ?>" data-toggle="modal" data-target="#logoutModal">
             <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
             Logout
           </a>
         </div>
       </li>
-
     </ul>
 
   </nav>
@@ -178,13 +146,25 @@
           <!-- Page Heading -->
           <h1 class="h3 mb-2 text-gray-800">Tables</h1>
           <p class="mb-4"></a></p>
-
+          <a href="/download/form" class="btn btn-primary"  onclick="return confirm('Apakah Anda yakin ?')"><span class="fa fa-plus"></span> Input Data</a>
           <hr>
-           
-          <!-- DataTales Kategori -->
+            <?php if(!empty(session()->getFlashdata('berhasil'))){ ?>
+                <div class="alert alert-success">
+                    <?php echo session()->getFlashdata('berhasil');?>
+                </div>
+            <?php } ?>
+            
+            <?php 
+                $errors = $validation->getErrors();
+                if(!empty($errors))
+                {
+                    echo $validation->listErrors();
+                }
+            ?>
+          <!-- DataTales Example -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Data Kategori</h6>
+              <h6 class="m-0 font-weight-bold text-primary">DataTabel File</h6>
             </div>
             
             <div class="card-body">
@@ -193,23 +173,22 @@
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Gambar</th>
-                      <th>Judul Kategori</th>
-                      <th>Link</th>
-                     
+                      <th>Judul</th>
+                      <th>File</th>
+                      <th>Aksi</th>
                     </tr>
                   </thead>
-                  <?php foreach($home as $row):?>
+                  <?php foreach($download as $row):?>
                 <tr>
-                    <td><?=$row['id_kategori'];?></td>
+                    <td><?=$row['id_download'];?></td>
                     <td><?php
-                        if (!empty($row["gambar_kategori"])) {
-                            echo '<img src="'.base_url("assets/img/kategori/$row[gambar_kategori]").'" width="100">';
+                        if (!empty($row["nama_file"])) {
+                            echo '<img src="'.base_url("assets/img/file/$row[nama_file]").'" width="100">';
                         }
                     ?></td>
-                    <td><?=$row['judul_kategori'];?></td>
-                    <td><?=$row['link'];?></td>
+                    <td><?=$row['judul_download'];?></td>
                     
+                    <td><a href="download/form_edit/<?=$row['id_download'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $row['judul_download']; ?> ini?')">Edit</a> | <a href="download/hapus/<?=$row['id_download'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $row['judul_download']; ?> ini?')">Hapus</a> </td>
                 </tr>
                 <?php endforeach;?>
                 </table>

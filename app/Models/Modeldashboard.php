@@ -10,4 +10,6 @@ class Modeldashboard extends Model
     protected $primaryKey = 'id_kategori';
     protected $useTimestamps = true;
 
+    
+
 }

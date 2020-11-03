@@ -29,6 +29,7 @@ class Login extends Controller
                     'logged_in'     => TRUE
                 ];
                 $session->set($ses_data);
+                $session->setFlashdata('msg', 'Selamat Anda Berhasil Login');
                 return redirect()->to('/home/dashboard');
             }else{
                 $session->setFlashdata('msg', 'Password Salah');

@@ -36,8 +36,7 @@
               <div class="col-lg-6">
                 <div class="p-5">
                   <div class="text-center">
-                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang Admin !!!</h1>
-                    <h1 class="h4 text-gray-900 mb-4">Silahkan Login!</h1>
+                    <h1 class="h4 text-gray-900 mb-4">Login</h1>
                     <?php if(session()->getFlashdata('msg')):?>
                       <div class="alert alert-danger"><?= session()->getFlashdata('msg')?></div>
                     <?php endif;?>
