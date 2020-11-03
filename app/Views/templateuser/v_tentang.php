@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Tentang Kami</title>
+  <title>Download</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -49,7 +49,7 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
               <li class="active"><a href="/user/">Home</a></li>
-              <li class="active"><a href="/tentang/">Tentang Kami</a></li>
+              <li class="active"><a href="/tentang/">Download</a></li>
               <li><a href="/login" class="get-started-btn scrollto">Login</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -73,7 +73,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>TENTANG KAMI</h2>
+          <h2></h2>
           <p>DINAS KOMUNIKASI INFORMATIKA STATISTIK DAN PERSANDIAN</p>
         </div>
 
@@ -81,15 +81,44 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <!--<li data-filter="*" class="filter-active">All</li>-->
-              <li data-filter=".filter-app">vISI MISI</li>
-              <li data-filter=".filter-card">TUJUAN</li>
-              <li data-filter=".filter-web">STRUKTUR ORGANISASI</li>
+              <li data-filter=".filter-app"></li>
             </ul>
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
+        <div class="card shadow mb-4">
+            <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">DataTabel File</h6>
+            </div>
+            
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>No</th>
+                      <th>Judul</th>
+                      <th>File</th>
+                      <th>Aksi</th>
+                    </tr>
+                  </thead>
+                  <?php foreach ($tentang as $t):?>
+                  <tr>
+                    <td><?=$t['id_download'];?></td>
+                    <td><?php
+                        if (!empty($t["nama_file"])) {
+                            echo '<img src="'.base_url("assets/img/file/$t[nama_file]").'" width="100">';
+                        }
+                    ?></td>
+                    <td><?=$t['judul_download'];?></td>
+                    
+                    <td><a href="download/form_edit/<?=$t['id_download'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $t['judul_download']; ?> ini?')">Edit</a> | <a href="download/hapus/<?=$t['id_download'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $t['judul_download']; ?> ini?')">Hapus</a> </td>
+                </tr>
+                <?php endforeach;?>
+                  </table>
+              </div>
+            </div>
+          </div>
          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
@@ -118,11 +147,11 @@
             </div>
           </div>-->
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
            <p> <mark>VISI MISI : </mark></p>
            <p> <mark>VISI : </mark></p>
-           <p> <mark>MISI : </mark></p>
+           <p> <mark>MISI : </mark></p> -->
               <!--<img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>App 2</h4>
@@ -135,12 +164,12 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+         <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
             <p><mark>TUJUAN : </mark></p>
             <p><mark>Berdasarkan visi dan misi, Dinas Komunikasi, Informatika, Statistik dan Persandian Kabupaten Probolinggo menentukan tujuan, sebagai berikut :</mark></p>
                <p><mark> 1. Meningkatkan Keterbukaan Informasi Publik</mark></p>
-               <p><mark> 2. Meningkatkan Implementasi Electronic Government</mark></p>
+               <p><mark> 2. Meningkatkan Implementasi Electronic Government</mark></p> -->
              <!-- <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Card 2</h4>
@@ -153,7 +182,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+         <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
            <p><mark>STRUKTUR ORGANISASI : </mark></p>
             <p><mark>- Kepala Dinas : Yulius Cristian S.I.P, MM. </mark></p>
@@ -171,7 +200,7 @@
             <p><mark>- Kepala Bidang Statistik dan Persandian : Drs. MA. Satrio Sinung Raharjo</mark></p>
             <p><mark>- Kasi Pengolahan Data dan Dokumentasi : Ninuk Isnaeni, SH.</mark></p>
             <p><mark>- Kasi Statistik : Aloysius Agus Mulyanto, S.Si, M.Si</mark></p>
-            <p><mark>- Kasi Persandian : Bambang Heri Purnomo, SE.</mark></p>
+            <p><mark>- Kasi Persandian : Bambang Heri Purnomo, SE.</mark></p> -->
              <!-- <img src="../assetsuser/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>Web 2</h4>

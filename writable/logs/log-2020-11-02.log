@@ -125,3 +125,62 @@ CRITICAL - 2020-11-02 21:53:52 --> Call to undefined method App\Models\Modeldown
 #4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #6 {main}
+ERROR - 2020-11-02 21:59:47 --> mysqli_sql_exception: Table 'portal.download' doesn't exist in C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\MySQLi\Connection.php:331
+Stack trace:
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Models\Modeldownload.php(10): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Download.php(15): App\Models\Modeldownload->getDownload()
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-11-02 21:59:47 --> Table 'portal.download' doesn't exist
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseConnection.php(724): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Database\BaseBuilder.php(1871): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Model.php(517): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Models\Modeldownload.php(10): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Download.php(15): App\Models\Modeldownload->getDownload()
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->index()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#9 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-11-02 22:19:13 --> Undefined variable: Tentang
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Tentang.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-02 22:32:06 --> Undefined variable: row
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\templateuser\v_tentang.php(107): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 107, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Tentang.php(26): view('templateuser/v_...', Array)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 22:32:53 --> Undefined variable: row
+#0 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Views\templateuser\v_tentang.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-smarcity\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\e-smarcity\app\Controllers\Tentang.php(26): view('templateuser/v_...', Array)
+#4 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#5 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#6 C:\xampp\htdocs\e-smarcity\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
