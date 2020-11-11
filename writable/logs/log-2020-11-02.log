@@ -184,3 +184,132 @@ CRITICAL - 2020-11-02 22:32:53 --> Undefined variable: row
 #7 C:\xampp\htdocs\e-smarcity\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
 #8 C:\xampp\htdocs\e-smarcity\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
 #9 {main}
+CRITICAL - 2020-11-02 22:37:22 --> Trying to get property 'id_download' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\templateuser\v_tentang.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(26): view('templateuser/v_...', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 22:38:23 --> Trying to get property 'id' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\templateuser\v_tentang.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(26): view('templateuser/v_...', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 22:46:14 --> Trying to get property 'id_download' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\templateuser\v_tentang.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(26): view('templateuser/v_...', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 22:46:34 --> Trying to get property 'nama_gile' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\templateuser\v_tentang.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(26): view('templateuser/v_...', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 22:46:43 --> Trying to get property 'nama_file' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\templateuser\v_tentang.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(26): view('templateuser/v_...', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-02 23:01:00 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:02:32 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:02:56 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:03:11 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:04:37 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:05:10 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:05:21 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:05:32 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:05:43 --> Too few arguments to function App\Controllers\Download::download(), 0 passed in C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php on line 964 and exactly 1 expected
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Download->download()
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Download))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-02 23:13:53 --> Trying to get property 'nama_file' of non-object
+#0 C:\xampp\htdocs\e-smarcity\app\Views\templateuser\v_tentang.php(115): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 115, Array)
+#1 C:\xampp\htdocs\e-smarcity\system\View\View.php(241): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\e-smarcity\system\Common.php(1217): CodeIgniter\View\View->render('templateuser/v_...', Array, true)
+#3 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(26): view('templateuser/v_...', Array)
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->index()
+#5 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#6 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#9 {main}

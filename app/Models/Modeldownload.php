@@ -29,4 +29,12 @@ class Modeldownload extends Model
         $query = $this->db->table($this->table)->delete(array('id_download' => $id));
         return $query;
     }
+
+    public function Download($id)
+    {
+         $query = $this->getWhere(['id_download' => $id]);
+         return $query;
+    }
+
+    
  }

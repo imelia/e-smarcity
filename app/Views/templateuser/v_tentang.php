@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="<?php echo base_url() ?>/assetsuser/img/favicon.png" rel="icon">
-  <link href="<?php echo base_url() ?>/assetsuser/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="<?php echo base_url() ?>/assetsuser/img/logo.png" rel="icon">
+  <link href="<?php echo base_url() ?>/assetsuser/img/logo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -88,7 +88,7 @@
 
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">DataTabel File</h6>
+              <h6 class="m-0 font-weight-bold text-primary">Data Tabel Download</h6>
             </div>
             
             <div class="card-body">
@@ -98,21 +98,20 @@
                     <tr>
                       <th>No</th>
                       <th>Judul</th>
-                      <th>File</th>
+                      <th>Nama File</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
                   <?php foreach ($tentang as $t):?>
                   <tr>
                     <td><?=$t['id_download'];?></td>
+                    <td><?=$t['judul_download'];?></td>
                     <td><?php
                         if (!empty($t["nama_file"])) {
                             echo '<img src="'.base_url("assets/img/file/$t[nama_file]").'" width="100">';
                         }
                     ?></td>
-                    <td><?=$t['judul_download'];?></td>
-                    
-                    <td><a href="download/form_edit/<?=$t['id_download'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $t['judul_download']; ?> ini?')">Edit</a> | <a href="download/hapus/<?=$t['id_download'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $t['judul_download']; ?> ini?')">Hapus</a> </td>
+                    <td><a href="<?php echo base_url().'download/download/'.$t['id_download'];?>" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt">Download</a></td>
                 </tr>
                 <?php endforeach;?>
                   </table>

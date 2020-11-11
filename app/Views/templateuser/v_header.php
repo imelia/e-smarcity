@@ -8,8 +8,8 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-              <li class="active"><a href="/user/">Home</a></li>
-              <li class="active"><a href="/tentang/">Tentang Kami</a></li>
+              <li><a href="/user/">Home</a></li>
+              <li><a href="/tentang/">Download</a></li>
               <li><a href="/login/" class="get-started-btn scrollto">Login</a></li>
         </ul>
       </nav><!-- .nav-menu -->
