@@ -25,4 +25,11 @@ class Tentang extends BaseController
         
           echo view('templateuser/v_tentang', $data);
         }
+
+        public function download($id)
+	{
+        $model = new Modeldownload();
+        $dt = $model->Download($id)->getRow('nama_file');
+        $name = 'public/assets/img/file/15. Build APK.pdf';
+	}  
 }

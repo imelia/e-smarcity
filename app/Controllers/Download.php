@@ -77,6 +77,7 @@ class Download extends BaseController
         if ($validation == FALSE) {
         $data = array(
             'judul_download'  => $this->request->getPost('judul_download'),
+            'nama_file'  => $this->request->getPost('nama_file'),
            
         );
         } else {
@@ -108,11 +109,10 @@ class Download extends BaseController
         return redirect()->to('./download')->with('berhasil', 'Data Berhasil di Hapus');
     }
 
-    function download($id)
+    public function download($id)
 	{
-        helper('download');
-        $fileinfo = $this->Modeldownload->Download($id);
-        $file = FCPATH.'/assets/img/file/'.$fileinfo['nama_file'];
-        force_download($file, NULL);
+        $model = new Modeldownload();
+        $dt = $model->Download($id)->getRow('nama_file');
+        $name = 'public/assets/img/file/APK.pdf';
 	}      
 }

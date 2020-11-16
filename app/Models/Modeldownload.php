@@ -32,7 +32,7 @@ class Modeldownload extends Model
 
     public function Download($id)
     {
-         $query = $this->getWhere(['id_download' => $id]);
+        $query = $this->getWhere(['nama_file' => $id]);
          return $query;
     }
 

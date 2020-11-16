@@ -111,7 +111,10 @@
                             echo '<img src="'.base_url("assets/img/file/$t[nama_file]").'" width="100">';
                         }
                     ?></td>
-                    <td><a href="<?php echo base_url().'download/download/'.$t['id_download'];?>" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt">Download</a></td>
+                    <td>
+                    <a href="<?php echo base_url().'/download/file/'.$t['nama_file'];?>"class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt">Download</a>
+                    <!-- <a href="<?php echo base_url().'Download/downloads/'.$t['id_download'];?>" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt">Download</a> -->
+                    </td>
                 </tr>
                 <?php endforeach;?>
                   </table>
