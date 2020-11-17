@@ -98,21 +98,18 @@
                     <tr>
                       <th>No</th>
                       <th>Judul</th>
-                      <th>Nama File</th>
+                      <th>File</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
-                  <?php foreach ($tentang as $t):?>
+                  <?php $no = 1;
+                   foreach ($tentang as $t):?>
                   <tr>
-                    <td><?=$t['id_download'];?></td>
+                    <td><?= $no++; ?></td>
                     <td><?=$t['judul_download'];?></td>
-                    <td><?php
-                        if (!empty($t["nama_file"])) {
-                            echo '<img src="'.base_url("assets/img/file/$t[nama_file]").'" width="100">';
-                        }
-                    ?></td>
+                    <td><?=$t['nama_file'];?></td>
                     <td>
-                    <a href="<?php echo base_url().'/download/file/'.$t['nama_file'];?>"class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt">Download</a>
+                    <a href="<?php echo base_url().'/tentang/file/'.$t['nama_file'];?>"class="btn btn-success btn-sm" target="_blank"><span class="glyphicon glyphicon-download-alt">Download</a>
                     <!-- <a href="<?php echo base_url().'Download/downloads/'.$t['id_download'];?>" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt">Download</a> -->
                     </td>
                 </tr>

@@ -178,15 +178,12 @@
                       <th>Aksi</th>
                     </tr>
                   </thead>
-                  <?php foreach($download as $row):?>
+                  <?php $no = 1; 
+                  foreach($download as $row):?>
                 <tr>
-                    <td><?=$row['id_download'];?></td>
-                    <td><?php
-                        if (!empty($row["nama_file"])) {
-                            echo '<img src="'.base_url("assets/img/file/$row[nama_file]").'" width="100">';
-                        }
-                    ?></td>
+                    <td><?= $no++; ?></td>
                     <td><?=$row['judul_download'];?></td>
+                    <td><?=$row['nama_file'];?></td>
                     
                     <td><a href="download/form_edit/<?=$row['id_download'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $row['judul_download']; ?> ini?')">Edit</a> | <a href="download/hapus/<?=$row['id_download'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $row['judul_download']; ?> ini?')">Hapus</a> </td>
                 </tr>

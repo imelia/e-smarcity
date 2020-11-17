@@ -29,17 +29,13 @@ class Download extends BaseController
             return redirect()->to('download');
         }
         $validation = $this->validate([
-            'file_upload' => [
-                'uploaded[file_upload]',
-                'mime_in[file_upload,image/jpeg/,image/png/,application/pdf,application/zip,application/msword,application/x-tar]',
-                'max_size[file_upload,1024]',
-            ],
+            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png,application/pdf]|max_size[file_upload,1024]'
         ]);
  
         if ($validation == FALSE) {
         $data = array(
             'judul_download'  => $this->request->getPost('judul_download'),
-            'nama_file'  => $this->request->getPost('nama_file'),
+
         );
         } else {
             $upload = $this->request->getFile('file_upload');
@@ -67,11 +63,7 @@ class Download extends BaseController
         }
         $id = $this->request->getPost('id_download');
         $validation = $this->validate([
-            'file_upload' => [
-                'uploaded[file_upload]',
-                'mime_in[file_upload,image/jpeg/,image/png/,application/pdf,application/zip,application/msword,application/x-tar]',
-                'max_size[file_upload,1024]',
-            ],
+            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png,application/pdf]|max_size[file_upload,1024]'
         ]);
  
         if ($validation == FALSE) {
@@ -108,11 +100,5 @@ class Download extends BaseController
         @unlink($path.$nama_file);
         return redirect()->to('./download')->with('berhasil', 'Data Berhasil di Hapus');
     }
-
-    public function download($id)
-	{
-        $model = new Modeldownload();
-        $dt = $model->Download($id)->getRow('nama_file');
-        $name = 'public/assets/img/file/APK.pdf';
-	}      
+     
 }

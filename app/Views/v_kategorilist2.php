@@ -195,9 +195,10 @@
                       <th>Aksi</th>
                     </tr>
                   </thead>
-                  <?php foreach($kategori as $row):?>
+                  <?php $no = 1;
+                   foreach($kategori as $row):?>
                 <tr>
-                    <td><?=$row['id_kategori'];?></td>
+                <td><?= $no++; ?></td>
                     <td><?php
                         if (!empty($row["gambar_kategori"])) {
                             echo '<img src="'.base_url("assets/img/kategori/$row[gambar_kategori]").'" width="100">';

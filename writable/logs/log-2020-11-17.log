@@ -1,0 +1,86 @@
+CRITICAL - 2020-11-17 00:42:50 --> syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\e-smarcity\system\Router\Router.php(199): CodeIgniter\Router\Router->autoRoute('tentang/file/1_...')
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(839): CodeIgniter\Router\Router->handle('tentang/file/1_...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-17 00:44:04 --> syntax error, unexpected 'parent' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\e-smarcity\system\Router\Router.php(199): CodeIgniter\Router\Router->autoRoute('tentang/file/1_...')
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(839): CodeIgniter\Router\Router->handle('tentang/file/1_...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(409): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-17 00:46:27 --> Call to undefined function App\Controllers\force_download()
+#0 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->file('1_8QgPF5tXwo5Nq...')
+#1 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-11-17 00:47:01 --> file_get_contents(public/assets/img/file/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(33): file_get_contents('public/assets/i...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->file('1_8QgPF5tXwo5Nq...')
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-17 00:48:17 --> file_get_contents(public/assets/img/file/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(33): file_get_contents('public/assets/i...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->file('1_8QgPF5tXwo5Nq...')
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-17 00:50:18 --> file_get_contents(public/assets/img/file/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(31): file_get_contents('public/assets/i...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->file('1_8QgPF5tXwo5Nq...')
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-17 00:50:59 --> file_get_contents(public/assets/img/file/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(30): file_get_contents('public/assets/i...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->file('1_8QgPF5tXwo5Nq...')
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-17 00:51:18 --> file_get_contents(public/assets/img/file/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(33): file_get_contents('public/assets/i...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->file('1_8QgPF5tXwo5Nq...')
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-17 00:55:49 --> file_get_contents(public/assets/img/file/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(33): file_get_contents('public/assets/i...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->file('1_8QgPF5tXwo5Nq...')
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-17 00:55:53 --> file_get_contents(public/assets/img/file/): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\e-smarcity\app\Controllers\Tentang.php(33): file_get_contents('public/assets/i...')
+#2 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(964): App\Controllers\Tentang->file('5dedd7b85049677...')
+#3 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(449): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tentang))
+#4 C:\xampp\htdocs\e-smarcity\system\CodeIgniter.php(357): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\e-smarcity\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\e-smarcity\system\Commands\Server\rewrite.php(35): require_once('C:\\xampp\\htdocs...')
+#7 {main}
