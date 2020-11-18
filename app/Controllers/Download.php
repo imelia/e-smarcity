@@ -35,6 +35,7 @@ class Download extends BaseController
         if ($validation == FALSE) {
         $data = array(
             'judul_download'  => $this->request->getPost('judul_download'),
+            'tentang_download'  => $this->request->getPost('tentang_download'),
 
         );
         } else {
@@ -42,6 +43,7 @@ class Download extends BaseController
             $upload->move(WRITEPATH . '../public/assets/img/file/');
         $data = array(
             'judul_download'  => $this->request->getPost('judul_download'),
+            'tentang_download'  => $this->request->getPost('tentang_download'),
             'nama_file' => $upload->getName(),
         );
         }
@@ -69,6 +71,7 @@ class Download extends BaseController
         if ($validation == FALSE) {
         $data = array(
             'judul_download'  => $this->request->getPost('judul_download'),
+            'tentang_download'  => $this->request->getPost('tentang_download'),
             'nama_file'  => $this->request->getPost('nama_file'),
            
         );
@@ -81,6 +84,7 @@ class Download extends BaseController
             $upload->move(WRITEPATH . '../public/assets/img/file/');
         $data = array(
             'judul_download'  => $this->request->getPost('judul_download'),
+            'tentang_download'  => $this->request->getPost('tentang_download'),
             'nama_file' => $upload->getName(),
             
         );

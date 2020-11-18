@@ -86,38 +86,77 @@
           </div>
         </div>
 
-        <div class="card shadow mb-4">
-            <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Data Tabel Download</h6>
-            </div>
+        
+
             
-            <div class="card-body">
+            
+<section id="middle">
+ <div class="container">
+ <!-- Begin Page Content -->
+ <div class="container-fluid">
+
+<!-- Page Heading -->
+<h1 class="h3 mb-2 text-gray-800">Tables</h1>
+<p class="mb-4"></a></p>
+ <!-- DataTales Example -->
+<div class="card shadow mb-4">
+            
+  <div class="card-body">
+  <div class="card-header py-3">
+              <h6 class="m-0 font-weight-bold text-primary">DataTabel File</h6>
+            </div>
               <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Judul</th>
-                      <th>File</th>
-                      <th>Aksi</th>
+                      <th>JUDUL</th>
+                      <th>TENTANG</th>
                     </tr>
                   </thead>
-                  <?php $no = 1;
-                   foreach ($tentang as $t):?>
-                  <tr>
-                    <td><?= $no++; ?></td>
-                    <td><?=$t['judul_download'];?></td>
-                    <td><?=$t['nama_file'];?></td>
-                    <td>
-                    <a href="<?php echo base_url().'/tentang/file/'.$t['nama_file'];?>"class="btn btn-success btn-sm" target="_blank"><span class="glyphicon glyphicon-download-alt">Download</a>
-                    <!-- <a href="<?php echo base_url().'Download/downloads/'.$t['id_download'];?>" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-download-alt">Download</a> -->
-                    </td>
-                </tr>
-                <?php endforeach;?>
-                  </table>
-              </div>
-            </div>
-          </div>
+  <?php $no = 1; 
+      foreach ($tentang as $h) : ?>
+   <tr>
+          <td><?= $no++; ?></td>
+          <td><?=$h['judul_download'];?></td>
+          <td><?=$h['tentang_download'];?>
+          <br>
+          <br><a href="<?php echo base_url()?>/users/detail/<?php echo $h['id_download']?>" class="btn btn-primary" >Detail</a></td>
+	 </div>
+    </div>
+    </tr>
+    <?php endforeach; ?>
+    </table>
+	<!--<div class="col-sm-3">
+	 <div class="middle_inner">
+	  <a href="detail.html"><img src="img/16.jpg" width="100%"></a>
+	  <h6><a href="detail.html">SEM AT NIBH ELEMENTUM </a></h6>
+	  <p><a href="detail.html">Fusce nec tellus sed augue semper porta  Mauris massa lacinia arcu eget nulla</a></p>
+	  <h4><a href="detail.html"><i class="fa fa-comment"></i></a></h4>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="middle_inner">
+	  <a href="detail.html"><img src="img/17.jpg" width="100%"></a>
+	  <h6><a href="detail.html">DUIS SAGITTIS IPSUM</a></h6>
+	  <p><a href="detail.html">Nulla quis sem at nibh elementum imperdiet  Duis sagittis ipsum Praesent mauris.</a></p>
+	  <h4><a href="detail.html"><i class="fa fa-comment"></i> 9</a></h4>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="middle_inner">
+	  <a href="detail.html"><img src="img/18.jpg" width="100%"></a>
+	  <h6><a href="detail.html">AUGUE SEMPER PORTA</a></h6>
+	  <p><a href="detail.html">Fusce nec tellus sed augue semper porta  Mauris massa lacinia arcu eget nulla</a></p>
+	  <h4><a href="detail.html"><i class="fa fa-comment"></i> 8</a></h4>
+	 </div>
+	</div> -->
+
+   </div>
+  </div>
+ </div>
+</section>
+
          <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
@@ -275,43 +314,7 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="footer-info">
-              <h3>Diskominfo Kabupaten Probolinggo<span>.</span></h3>
-              <p>
-                JL. PANGLIMA SUDIRMAN No. 134 KOTA KRAKSAAN, KABUPATEN PROBOLINGGO <br>
-                <br><br>
-                <strong>Phone:</strong> +62335 846665<br>
-                <strong>Email:</strong> redaksi@probolinggokab.go.id<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="https://twitter.com/Infokabprob" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="https://www.facebook.com/infoprobolinggokab" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="https://www.youtube.com/channel/UCl1Skf0XEOJG0Ll_DBqRvMA" class="youtube"><i class="bx bxl-youtube"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span></span></strong> All Rights Reserved
-      </div>
-      <div class="credits">
-        Diskominfo Kabupaten Probolinggo
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+  
 
   <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
   <div id="preloader"></div>

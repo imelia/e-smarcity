@@ -29,7 +29,7 @@
         <?php foreach ($user as $u) : ?>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-            <img class="img-fluid" src="<?php echo base_url() ?>/assets/img/kategori/<?= $u['gambar_kategori']; ?>" width="100%" height="50%" alt="">
+            <img class="img-fluid" src="<?php echo base_url() ?>/assets/img/kategori/<?= $u['gambar_kategori']; ?>" width="150%" height="100%" alt="">
               <!--<div class="icon"><i class="bx bxl-dribbble"></i></div> --> 
               <h4 id=""><a target="_blank" href="<?= $u['link'] ?>"><?= $u['judul_kategori']; ?></h4>
             </div>

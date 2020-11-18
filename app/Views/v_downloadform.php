@@ -22,13 +22,19 @@
             <div class="col-md-12">
                     <label>File</label>
                     <div class="form-group">
-                         <input type="file" name="file_upload" class="form-control is-invalid"> 
+                         <input type="file" accept="application/pdf" name="file_upload" class="form-control is-invalid"> 
                     </div>  
                 </div>
     			<div class="col-md-12">
     				<label>JUDUL</label>
     				<div class="form-group">
                    		 <input type="text" name="judul_download" class="form-control"> 
+                	</div>	
+    			</div>
+				<div class="col-md-12">
+    				<label>TENTANG</label>
+    				<div class="form-group">
+                   		 <input type="text" name="tentang_download" class="form-control"> 
                 	</div>	
     			</div>
     			<div class="col-md-12">

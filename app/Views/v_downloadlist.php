@@ -35,7 +35,8 @@
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
   <div class="sidebar-brand-icon rotate-n-15">
   </div>
-  <div class="sidebar-brand-text mx-3">SMART CITY</div>
+  <div class="sidebar-brand-text mx-3">ADMIN</div>
+  
 </a>
 
 <!-- Divider -->
@@ -146,7 +147,7 @@
           <!-- Page Heading -->
           <h1 class="h3 mb-2 text-gray-800">Tables</h1>
           <p class="mb-4"></a></p>
-          <a href="/download/form" class="btn btn-primary"  onclick="return confirm('Apakah Anda yakin ?')"><span class="fa fa-plus"></span> Input Data</a>
+          <a href="<?php echo base_url()?>/download/form" class="btn btn-primary"  onclick="return confirm('Apakah Anda yakin ?')"><span class="fa fa-plus"></span> Input Data</a>
           <hr>
             <?php if(!empty(session()->getFlashdata('berhasil'))){ ?>
                 <div class="alert alert-success">
@@ -174,7 +175,8 @@
                     <tr>
                       <th>No</th>
                       <th>Judul</th>
-                      <th>File</th>
+                      <th>Tentang</th>
+                      <th>Nama File</th>
                       <th>Aksi</th>
                     </tr>
                   </thead>
@@ -183,9 +185,10 @@
                 <tr>
                     <td><?= $no++; ?></td>
                     <td><?=$row['judul_download'];?></td>
+                    <td><?=$row['tentang_download'];?></td>
                     <td><?=$row['nama_file'];?></td>
                     
-                    <td><a href="download/form_edit/<?=$row['id_download'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $row['judul_download']; ?> ini?')">Edit</a> | <a href="download/hapus/<?=$row['id_download'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $row['judul_download']; ?> ini?')">Hapus</a> </td>
+                    <td><a href="<?php echo base_url()?>/download/form_edit/<?=$row['id_download'];?>" class="btn btn-primary" onclick="return confirm('Apakah Anda yakin ingin mengedit kategori <?php echo $row['judul_download']; ?> ini?')">Edit</a> | <a href="<?php echo base_url()?>/download/hapus/<?=$row['id_download'];?>" class="btn btn-danger" onclick="return confirm('Apakah Anda yakin ingin menghapus kategori <?php echo $row['judul_download']; ?> ini?')">Hapus</a> </td>
                 </tr>
                 <?php endforeach;?>
                 </table>
