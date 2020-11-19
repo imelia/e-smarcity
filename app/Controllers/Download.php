@@ -29,7 +29,7 @@ class Download extends BaseController
             return redirect()->to('download');
         }
         $validation = $this->validate([
-            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png,application/pdf]|max_size[file_upload,1024]'
+            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,application/pdf]|max_size[file_upload,1024]'
         ]);
  
         if ($validation == FALSE) {
@@ -65,7 +65,7 @@ class Download extends BaseController
         }
         $id = $this->request->getPost('id_download');
         $validation = $this->validate([
-            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png,application/pdf]|max_size[file_upload,1024]'
+            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,application/pdf]|max_size[file_upload,1024]'
         ]);
  
         if ($validation == FALSE) {
