@@ -31,7 +31,7 @@
                     </div>  
                 </div>
     			<div class="col-md-12">
-    				<label>JUDUL</label>
+    				<label>JENIS /NOMOR PERATURAN</label>
     				<div class="form-group">
                    		 <input type="text" name="judul_download" class="form-control"> 
                 	</div>	
