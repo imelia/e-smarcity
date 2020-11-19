@@ -174,7 +174,7 @@
                   <thead>
                     <tr>
                       <th>No</th>
-                      <th>Judul</th>
+                      <th>Jenis / Nomor Peraturan</th>
                       <th>Tentang</th>
                       <th>Nama File</th>
                       <th>Aksi</th>

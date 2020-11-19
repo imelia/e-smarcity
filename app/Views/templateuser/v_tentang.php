@@ -89,8 +89,8 @@
                         <thead>
                           <tr>
                             <th>No</th>
-                            <th>JUDUL</th>
-                            <th>TENTANG</th>
+                            <th>Jenis / Nomor Peraturan</th>
+                            <th>Tentang</th>
                           </tr>
                         </thead>
                               <?php $no = 1; 

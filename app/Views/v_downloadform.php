@@ -20,9 +20,14 @@
     	<div class="col-lg-12">
     		<div class="row">
             <div class="col-md-12">
-                    <label>File</label>
+                    <label>File</label><br/>
+                    <?php
+                        if (!empty($download->nama_file)) {
+                            echo '<img src="'.base_url("assets/img/file/$download->nama_file").'" width="150">';
+                        }
+                    ?>
                     <div class="form-group">
-                         <input type="file" accept="application/pdf" name="file_upload" class="form-control is-invalid"> 
+                         <input type="file" name="file_upload" class="form-control"> 
                     </div>  
                 </div>
     			<div class="col-md-12">

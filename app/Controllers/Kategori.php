@@ -29,7 +29,7 @@ class Kategori extends BaseController
             return redirect()->to('kategori');
         }
         $validation = $this->validate([
-            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png]|max_size[file_upload,4096]'
+            'file_upload' => 'uploaded[file_upload]|mime_in[file_upload,image/jpg,image/jpeg,image/gif,image/png,application/pdf]|max_size[file_upload,4096]'
         ]);
  
         if ($validation == FALSE) {
